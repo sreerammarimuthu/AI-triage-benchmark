@@ -2,7 +2,7 @@
 
 ### Authors: **Sreeram Marimuthu, Roee Shraga, Xiaozhong Liu, Patricia L. Mabry**
 
-BioDMS Workshop at VLDB 2026, Boston, USA
+Status Update: Accepted at BioDMS Workshop at VLDB 2026, Boston, USA
 
 ---
 
