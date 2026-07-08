@@ -18,12 +18,12 @@ This repository contains the code, data, and pre-computed results for the main b
 .
 ├── README.md
 ├── requirements.txt
-├── Supplementary Tables/
-│   └── supplementary_table.csv      # Coherence and faithfulness rates by prompt type (E/F) with SEs
+├── tables/
+│   └── supplementary_table.csv      # Results by prompt type (E vs. F) with SEs
 │
 └── benchmark/
-    ├── main.py                          # Primary run — Ramaswamy prompt format (main results)
-    ├── main_strict_prompt.py            # Strict prompt run — prompt sensitivity (Section 4.4)
+    ├── main.py                          # Primary run - Ramaswamy prompt format (main results)
+    ├── main_strict_prompt.py            # Strict prompt run - prompt sensitivity (Section 4.4)
     ├── compile_results.py               # Generates Excel workbook (primary results)
     ├── compile_results_strict_prompt.py # Generates Excel workbook (strict prompt results)
     ├── src/
@@ -91,9 +91,7 @@ All models run locally via Ollama at `http://localhost:11434`. No external API k
 
 ChatGPT Health predictions are **not re-run** by this pipeline. They were taken directly from the Ramaswamy et al. (Nature Medicine 2026) supplementary dataset, included here as `benchmark/data/vignettes.csv`. No additional queries were issued; the data is used exactly as published.
 
-ChatGPT Health is included in the **primary run only** (`main.py`). Its responses were generated under the Ramaswamy plain-text prompt format and cannot be meaningfully reused under the strict prompt variant. The strict prompt run (`main_strict_prompt.py`) covers the four open-source models only.
-
-When running the benchmark, ChatGPT Health records are loaded automatically from `vignettes.csv` into the primary checkpoint. No action is needed.
+ChatGPT Health is included in the **primary run only** (`main.py`). Its responses were generated under the Ramaswamy plain-text prompt format and cannot be meaningfully reused under the strict prompt variant. The strict prompt run (`main_strict_prompt.py`) covers the four open-source models only. When running the benchmark, ChatGPT Health records are loaded automatically from `vignettes.csv` into the primary checkpoint. No action is needed.
 
 ---
 
@@ -214,45 +212,6 @@ Full variable descriptions are in `data_dictionary.csv`.
 | D | Go to the emergency department now |
 
 Gold-standard labels were adjudicated by three independent physicians per case. Of the 78 cases: 44 carry a single consensus label (A: 8, B: 8, C: 16, D: 12) and 34 carry split labels (A/B: 2, B/C: 4, C/D: 28). A prediction is considered correct if it matches any valid label.
-
----
-
-## Key Results (Primary prompt — main study)
-
-| Model | Accuracy | Calibration | Coherence Rate | Faithfulness Rate | Under-Triage Rate | Over-Triage Rate |
-|---|---|---|---|---|---|---|
-| ChatGPT Health | **84.6%** | -2.7% | **52.6%** | 30.8% | **5.1%** | 10.3% |
-| Gemma2 9B | 79.5% | **-1.6%** | 35.9% | 43.6% | 12.8% | **7.7%** |
-| Qwen2.5 7B | 73.1% | +8.2% | **52.6%** | 42.3% | 11.5% | 15.4% |
-| Mistral 7B | 59.0% | +18.4% | 41.0% | 33.3% | 33.3% | 7.7% |
-| DeepSeek-R1 7B | 50.0% | +31.2% | 34.6% | **55.1%** | 43.6% | 6.4% |
-
-Values in parentheses in the paper are standard errors (N=78). Calibration is reported without SE.
-
----
-
-## Key Results (Strict prompt — prompt sensitivity, Section 4.4)
-
-Four open-source models only. ChatGPT Health is excluded (see "About ChatGPT Health" above).
-
-| Model | Accuracy | Coherence Rate | Faithfulness Rate |
-|---|---|---|---|
-| Gemma2 9B | **75.6%** (5.0%) | 41.0% (5.6%) | **74.4%** (4.9%) |
-| Mistral 7B | 74.4% (5.0%) | **51.3%** (5.7%) | 48.7% (5.7%) |
-| Qwen2.5 7B | 70.5% (5.2%) | 35.9% (5.4%) | 61.0% (5.5%) |
-| DeepSeek-R1 7B | 29.5% (5.2%) | 55.1% (5.6%) | 51.3% (5.7%) |
-
-Values in parentheses are standard errors (N=78). One case excluded from Qwen2.5 7B faithfulness denominator (N=77) due to judge model safety refusal on a mental health vignette.
-
----
-
-## Citation
-
-```
-Marimuthu, S., Shraga, R., Liu, X., and Mabry, P.L. (2026).
-Right for the Wrong Reasons: A Benchmark for Hallucination and Clinical Safety
-in AI Health Triage. BioDMS Workshop at VLDB 2026, Boston, USA.
-```
 
 ---
 
