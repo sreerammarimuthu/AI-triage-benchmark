@@ -1,16 +1,16 @@
 "Table 3 Extended: Sensitivity of Model Accuracy,  Faithfulness Rate,  and Coherence Rate to Clinical Data Availability,  n=39 per prompt type.",,,,,,,
 ,,,,,,,
 Model,Prompt Type,Accuracy,Accuracy SE,Faithfulness Rate,Faithfulness Rate SE,Coherence Rate,Coherence Rate SE
-ChatGPT Health,Symptoms Only,76.90%,6.70%,51.30%,8.00%,54.80%,8.00%
-ChatGPT Health,Full Clinical (vitals + exam + labs),92.30%,4.30%,10.30%,4.90%,84.00%,5.90%
-Gemma 2 9B,Symptoms Only,76.90%,6.70%,69.20%,7.40%,56.50%,7.90%
-Gemma 2 9B,Full Clinical (vitals + exam + labs),82.10%,6.10%,17.90%,6.10%,66.70%,7.50%
-Qwen2.5 7B,Symptoms Only,69.20%,7.40%,71.80%,7.20%,80.80%,6.30%
-Qwen2.5 7B,Full Clinical (vitals + exam + labs),76.90%,6.70%,12.80%,5.40%,69.00%,7.40%
-Mistral 7B,Symptoms Only,64.10%,7.70%,64.10%,7.70%,61.50%,7.80%
-Mistral 7B,Full Clinical (vitals + exam + labs),53.80%,8.00%,2.60%,2.50%,51.90%,8.00%
-DeepSeek-R1 7B,Symptoms Only,41.00%,7.90%,74.40%,7.00%,68.00%,7.50%
-DeepSeek-R1 7B,Full Clinical (vitals + exam + labs),59.00%,7.90%,35.90%,7.70%,52.60%,8.00%
+ChatGPT Health,Symptoms Only,76.90%,6.70%,51.30%,8.00%,48.70%,8.00%
+ChatGPT Health,Full Clinical (vitals + exam + labs),92.30%,4.30%,10.30%,4.90%,56.40%,7.90%
+Gemma 2 9B,Symptoms Only,76.90%,6.70%,69.20%,7.40%,35.90%,7.70%
+Gemma 2 9B,Full Clinical (vitals + exam + labs),82.10%,6.10%,17.90%,6.10%,35.90%,7.70%
+Qwen2.5 7B,Symptoms Only,69.20%,7.40%,71.80%,7.20%,53.80%,8.00%
+Qwen2.5 7B,Full Clinical (vitals + exam + labs),76.90%,6.70%,12.80%,5.40%,51.30%,8.00%
+Mistral 7B,Symptoms Only,64.10%,7.70%,64.10%,7.70%,41.00%,7.90%
+Mistral 7B,Full Clinical (vitals + exam + labs),53.80%,8.00%,2.60%,2.50%,41.00%,7.90%
+DeepSeek-R1 7B,Symptoms Only,41.00%,7.90%,74.40%,7.00%,43.60%,7.90%
+DeepSeek-R1 7B,Full Clinical (vitals + exam + labs),59.00%,7.90%,35.90%,7.70%,25.60%,7.00%
 ,,,,,,,
 Standard errors (SE) computed as sqrt(p*(1-p)/n),,,,,,,
 Calibration is omitted from this table (it is a signed mean difference  not a proportion).,,,,,,,
