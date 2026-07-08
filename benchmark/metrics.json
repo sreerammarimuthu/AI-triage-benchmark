@@ -1,0 +1,1832 @@
+{
+  "overall": {
+    "mistral:latest": {
+      "n": 78,
+      "accuracy": 0.5897,
+      "within_1_accuracy": 0.9872,
+      "avg_confidence": 0.7737,
+      "calibration": 0.184,
+      "coherence_pass_rate": 0.4103,
+      "faithfulness_pass_rate": 0.3333,
+      "under_triage_rate": 0.3333,
+      "over_triage_rate": 0.0769
+    },
+    "deepseek-r1:7b": {
+      "n": 78,
+      "accuracy": 0.5,
+      "within_1_accuracy": 0.7821,
+      "avg_confidence": 0.8115,
+      "calibration": 0.3115,
+      "coherence_pass_rate": 0.3462,
+      "faithfulness_pass_rate": 0.5513,
+      "under_triage_rate": 0.4359,
+      "over_triage_rate": 0.0641
+    },
+    "gemma2:9b": {
+      "n": 78,
+      "accuracy": 0.7949,
+      "within_1_accuracy": 0.9872,
+      "avg_confidence": 0.7788,
+      "calibration": -0.0161,
+      "coherence_pass_rate": 0.359,
+      "faithfulness_pass_rate": 0.4359,
+      "under_triage_rate": 0.1282,
+      "over_triage_rate": 0.0769
+    },
+    "qwen2.5:7b": {
+      "n": 78,
+      "accuracy": 0.7308,
+      "within_1_accuracy": 1.0,
+      "avg_confidence": 0.8128,
+      "calibration": 0.082,
+      "coherence_pass_rate": 0.5256,
+      "faithfulness_pass_rate": 0.4231,
+      "under_triage_rate": 0.1154,
+      "over_triage_rate": 0.1538
+    },
+    "chatgpt-health": {
+      "n": 78,
+      "accuracy": 0.8462,
+      "within_1_accuracy": 0.9872,
+      "avg_confidence": 0.8192,
+      "calibration": -0.027,
+      "coherence_pass_rate": 0.5256,
+      "faithfulness_pass_rate": 0.3077,
+      "under_triage_rate": 0.0513,
+      "over_triage_rate": 0.1026
+    }
+  },
+  "by_prompt_type": {
+    "E": {
+      "mistral:latest": {
+        "n": 39,
+        "accuracy": 0.5385,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": 0.2615,
+        "coherence_pass_rate": 0.4103,
+        "faithfulness_pass_rate": 0.0256,
+        "under_triage_rate": 0.3846,
+        "over_triage_rate": 0.0769
+      },
+      "deepseek-r1:7b": {
+        "n": 39,
+        "accuracy": 0.5897,
+        "within_1_accuracy": 0.8205,
+        "avg_confidence": 0.8128,
+        "calibration": 0.2231,
+        "coherence_pass_rate": 0.2564,
+        "faithfulness_pass_rate": 0.359,
+        "under_triage_rate": 0.3846,
+        "over_triage_rate": 0.0256
+      },
+      "gemma2:9b": {
+        "n": 39,
+        "accuracy": 0.8205,
+        "within_1_accuracy": 0.9744,
+        "avg_confidence": 0.7974,
+        "calibration": -0.0231,
+        "coherence_pass_rate": 0.359,
+        "faithfulness_pass_rate": 0.1795,
+        "under_triage_rate": 0.1026,
+        "over_triage_rate": 0.0769
+      },
+      "qwen2.5:7b": {
+        "n": 39,
+        "accuracy": 0.7692,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8205,
+        "calibration": 0.0513,
+        "coherence_pass_rate": 0.5128,
+        "faithfulness_pass_rate": 0.1282,
+        "under_triage_rate": 0.1026,
+        "over_triage_rate": 0.1282
+      },
+      "chatgpt-health": {
+        "n": 39,
+        "accuracy": 0.9231,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8531,
+        "calibration": -0.07,
+        "coherence_pass_rate": 0.5641,
+        "faithfulness_pass_rate": 0.1026,
+        "under_triage_rate": 0.0513,
+        "over_triage_rate": 0.0256
+      }
+    },
+    "F": {
+      "mistral:latest": {
+        "n": 39,
+        "accuracy": 0.641,
+        "within_1_accuracy": 0.9744,
+        "avg_confidence": 0.7474,
+        "calibration": 0.1064,
+        "coherence_pass_rate": 0.4103,
+        "faithfulness_pass_rate": 0.641,
+        "under_triage_rate": 0.2821,
+        "over_triage_rate": 0.0769
+      },
+      "deepseek-r1:7b": {
+        "n": 39,
+        "accuracy": 0.4103,
+        "within_1_accuracy": 0.7436,
+        "avg_confidence": 0.8103,
+        "calibration": 0.4,
+        "coherence_pass_rate": 0.4359,
+        "faithfulness_pass_rate": 0.7436,
+        "under_triage_rate": 0.4872,
+        "over_triage_rate": 0.1026
+      },
+      "gemma2:9b": {
+        "n": 39,
+        "accuracy": 0.7692,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7603,
+        "calibration": -0.0089,
+        "coherence_pass_rate": 0.359,
+        "faithfulness_pass_rate": 0.6923,
+        "under_triage_rate": 0.1538,
+        "over_triage_rate": 0.0769
+      },
+      "qwen2.5:7b": {
+        "n": 39,
+        "accuracy": 0.6923,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8051,
+        "calibration": 0.1128,
+        "coherence_pass_rate": 0.5385,
+        "faithfulness_pass_rate": 0.7179,
+        "under_triage_rate": 0.1282,
+        "over_triage_rate": 0.1795
+      },
+      "chatgpt-health": {
+        "n": 39,
+        "accuracy": 0.7692,
+        "within_1_accuracy": 0.9744,
+        "avg_confidence": 0.7854,
+        "calibration": 0.0162,
+        "coherence_pass_rate": 0.4872,
+        "faithfulness_pass_rate": 0.5128,
+        "under_triage_rate": 0.0513,
+        "over_triage_rate": 0.1795
+      }
+    }
+  },
+  "by_domain": {
+    "Allergy": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.95,
+        "calibration": -0.05,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.925,
+        "calibration": -0.075,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.95,
+        "calibration": -0.05,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.925,
+        "calibration": -0.075,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.95,
+        "calibration": -0.05,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Cardiac": {
+      "mistral:latest": {
+        "n": 8,
+        "accuracy": 0.125,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7188,
+        "calibration": 0.5938,
+        "coherence_pass_rate": 0.375,
+        "faithfulness_pass_rate": 0.375,
+        "under_triage_rate": 0.625,
+        "over_triage_rate": 0.25
+      },
+      "deepseek-r1:7b": {
+        "n": 8,
+        "accuracy": 0.625,
+        "within_1_accuracy": 0.75,
+        "avg_confidence": 0.8313,
+        "calibration": 0.2063,
+        "coherence_pass_rate": 0.375,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.25,
+        "over_triage_rate": 0.125
+      },
+      "gemma2:9b": {
+        "n": 8,
+        "accuracy": 0.625,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8063,
+        "calibration": 0.1813,
+        "coherence_pass_rate": 0.125,
+        "faithfulness_pass_rate": 0.125,
+        "under_triage_rate": 0.125,
+        "over_triage_rate": 0.25
+      },
+      "qwen2.5:7b": {
+        "n": 8,
+        "accuracy": 0.625,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.825,
+        "calibration": 0.2,
+        "coherence_pass_rate": 0.375,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.125,
+        "over_triage_rate": 0.25
+      },
+      "chatgpt-health": {
+        "n": 8,
+        "accuracy": 0.875,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8225,
+        "calibration": -0.0525,
+        "coherence_pass_rate": 0.375,
+        "faithfulness_pass_rate": 0.25,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.125
+      }
+    },
+    "Derm": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.65,
+        "calibration": -0.35,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": 0.85,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 1.0,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": -0.275,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": 0.725,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 1.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": -0.15,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "ENT/Neuro": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": -0.2,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": -0.2,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.825,
+        "calibration": -0.175,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": -0.15,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.785,
+        "calibration": 0.285,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.5
+      }
+    },
+    "Endo": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": -0.275,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": 0.8,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 1.0,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": -0.275,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": -0.225,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.81,
+        "calibration": -0.19,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "GI": {
+      "mistral:latest": {
+        "n": 4,
+        "accuracy": 0.25,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.6625,
+        "calibration": 0.4125,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.25,
+        "over_triage_rate": 0.5
+      },
+      "deepseek-r1:7b": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.5,
+        "avg_confidence": 0.775,
+        "calibration": 0.275,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.75,
+        "under_triage_rate": 0.25,
+        "over_triage_rate": 0.25
+      },
+      "gemma2:9b": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.75,
+        "avg_confidence": 0.7375,
+        "calibration": 0.2375,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.5
+      },
+      "qwen2.5:7b": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": 0.2,
+        "coherence_pass_rate": 0.25,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.5
+      },
+      "chatgpt-health": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.82,
+        "calibration": 0.32,
+        "coherence_pass_rate": 0.75,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.5
+      }
+    },
+    "Heme": {
+      "mistral:latest": {
+        "n": 6,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7417,
+        "calibration": -0.2583,
+        "coherence_pass_rate": 0.3333,
+        "faithfulness_pass_rate": 0.3333,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 6,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.8333,
+        "avg_confidence": 0.8333,
+        "calibration": 0.3333,
+        "coherence_pass_rate": 0.3333,
+        "faithfulness_pass_rate": 0.6667,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 6,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7417,
+        "calibration": -0.2583,
+        "coherence_pass_rate": 0.6667,
+        "faithfulness_pass_rate": 0.6667,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 6,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7833,
+        "calibration": -0.2167,
+        "coherence_pass_rate": 0.8333,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 6,
+        "accuracy": 0.6667,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7917,
+        "calibration": 0.125,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.3333,
+        "under_triage_rate": 0.3333,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Hepatology": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": -0.3,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": 0.8,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.5
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": 0.225,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": 0.225,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": 0.225,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 1.0,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      }
+    },
+    "ID": {
+      "mistral:latest": {
+        "n": 4,
+        "accuracy": 0.25,
+        "within_1_accuracy": 0.75,
+        "avg_confidence": 0.8,
+        "calibration": 0.55,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.25,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.25
+      },
+      "deepseek-r1:7b": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7875,
+        "calibration": 0.2875,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 4,
+        "accuracy": 0.75,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8375,
+        "calibration": 0.0875,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.25,
+        "under_triage_rate": 0.25,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 4,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": -0.15,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.25,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 4,
+        "accuracy": 0.75,
+        "within_1_accuracy": 0.75,
+        "avg_confidence": 0.8425,
+        "calibration": 0.0925,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.25,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.25
+      }
+    },
+    "ID/Renal": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": -0.2,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.875,
+        "calibration": -0.125,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": -0.2,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": -0.15,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.875,
+        "calibration": -0.125,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Lytes": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": 0.3,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.5,
+        "avg_confidence": 0.8,
+        "calibration": 0.3,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": -0.275,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": -0.225,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": -0.25,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Metabolic": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.825,
+        "calibration": 0.325,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 0.5,
+        "avg_confidence": 0.8,
+        "calibration": 0.8,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": 0.3,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": 0.35,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.865,
+        "calibration": -0.135,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Neuro": {
+      "mistral:latest": {
+        "n": 6,
+        "accuracy": 0.3333,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": 0.4417,
+        "coherence_pass_rate": 0.1667,
+        "faithfulness_pass_rate": 0.1667,
+        "under_triage_rate": 0.6667,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 6,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.8333,
+        "avg_confidence": 0.7833,
+        "calibration": 0.2833,
+        "coherence_pass_rate": 0.3333,
+        "faithfulness_pass_rate": 0.3333,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 6,
+        "accuracy": 0.8333,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7917,
+        "calibration": -0.0416,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.6667,
+        "under_triage_rate": 0.1667,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 6,
+        "accuracy": 0.6667,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7667,
+        "calibration": 0.1,
+        "coherence_pass_rate": 0.1667,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.3333,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 6,
+        "accuracy": 0.8333,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.83,
+        "calibration": -0.0033,
+        "coherence_pass_rate": 0.3333,
+        "faithfulness_pass_rate": 0.3333,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.1667
+      }
+    },
+    "Onc/MSK": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": 0.25,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.925,
+        "calibration": 0.425,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.5
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": -0.25,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": -0.225,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.825,
+        "calibration": -0.175,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Ophthalmology": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": 0.25,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 0.5,
+        "avg_confidence": 0.8,
+        "calibration": 0.8,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": -0.25,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": -0.2,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.79,
+        "calibration": -0.21,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Psych": {
+      "mistral:latest": {
+        "n": 16,
+        "accuracy": 0.625,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8687,
+        "calibration": 0.2437,
+        "coherence_pass_rate": 0.375,
+        "faithfulness_pass_rate": 0.1875,
+        "under_triage_rate": 0.375,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 16,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.625,
+        "avg_confidence": 0.8,
+        "calibration": 0.3,
+        "coherence_pass_rate": 0.4375,
+        "faithfulness_pass_rate": 0.6875,
+        "under_triage_rate": 0.4375,
+        "over_triage_rate": 0.0625
+      },
+      "gemma2:9b": {
+        "n": 16,
+        "accuracy": 0.875,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8063,
+        "calibration": -0.0687,
+        "coherence_pass_rate": 0.25,
+        "faithfulness_pass_rate": 0.375,
+        "under_triage_rate": 0.125,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 16,
+        "accuracy": 0.6875,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.9062,
+        "calibration": 0.2187,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.3125,
+        "under_triage_rate": 0.0625,
+        "over_triage_rate": 0.25
+      },
+      "chatgpt-health": {
+        "n": 16,
+        "accuracy": 0.9375,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8381,
+        "calibration": -0.0994,
+        "coherence_pass_rate": 0.75,
+        "faithfulness_pass_rate": 0.3125,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0625
+      }
+    },
+    "Pulm": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": 0.75,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": 0.75,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 1.0,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.825,
+        "calibration": 0.825,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": 0.85,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.79,
+        "calibration": 0.29,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Renal/Lytes": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": 0.775,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 1.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.5,
+        "avg_confidence": 0.925,
+        "calibration": 0.425,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.675,
+        "calibration": 0.175,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": 0.275,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": -0.25,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Rheumatology": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": -0.2,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": -0.15,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 1.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": -0.225,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": -0.15,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.825,
+        "calibration": -0.175,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Surgery": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": -0.3,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": -0.3,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.725,
+        "calibration": -0.275,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": -0.3,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": -0.225,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "Urology": {
+      "mistral:latest": {
+        "n": 4,
+        "accuracy": 0.75,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": -0.05,
+        "coherence_pass_rate": 0.75,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.25
+      },
+      "deepseek-r1:7b": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": 0.25,
+        "coherence_pass_rate": 0.25,
+        "faithfulness_pass_rate": 0.75,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7125,
+        "calibration": 0.2125,
+        "coherence_pass_rate": 0.25,
+        "faithfulness_pass_rate": 0.75,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.5
+      },
+      "qwen2.5:7b": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": 0.2,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.5
+      },
+      "chatgpt-health": {
+        "n": 4,
+        "accuracy": 0.75,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7875,
+        "calibration": 0.0375,
+        "coherence_pass_rate": 0.75,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.25
+      }
+    },
+    "Vascular": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": -0.3,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.5,
+        "avg_confidence": 0.85,
+        "calibration": 0.35,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": -0.25,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": -0.225,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.825,
+        "calibration": -0.175,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    }
+  },
+  "by_triage": {
+    "A": {
+      "mistral:latest": {
+        "n": 8,
+        "accuracy": 0.25,
+        "within_1_accuracy": 0.875,
+        "avg_confidence": 0.6875,
+        "calibration": 0.4375,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.75
+      },
+      "deepseek-r1:7b": {
+        "n": 8,
+        "accuracy": 0.875,
+        "within_1_accuracy": 0.875,
+        "avg_confidence": 0.7937,
+        "calibration": -0.0813,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.875,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.125
+      },
+      "gemma2:9b": {
+        "n": 8,
+        "accuracy": 0.25,
+        "within_1_accuracy": 0.875,
+        "avg_confidence": 0.7625,
+        "calibration": 0.5125,
+        "coherence_pass_rate": 0.125,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.75
+      },
+      "qwen2.5:7b": {
+        "n": 8,
+        "accuracy": 0.25,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7563,
+        "calibration": 0.5063,
+        "coherence_pass_rate": 0.375,
+        "faithfulness_pass_rate": 0.625,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.75
+      },
+      "chatgpt-health": {
+        "n": 8,
+        "accuracy": 0.375,
+        "within_1_accuracy": 0.875,
+        "avg_confidence": 0.7788,
+        "calibration": 0.4038,
+        "coherence_pass_rate": 0.25,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.625
+      }
+    },
+    "B": {
+      "mistral:latest": {
+        "n": 8,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.6812,
+        "calibration": -0.3188,
+        "coherence_pass_rate": 0.125,
+        "faithfulness_pass_rate": 0.25,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 8,
+        "accuracy": 0.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8312,
+        "calibration": 0.8312,
+        "coherence_pass_rate": 0.375,
+        "faithfulness_pass_rate": 0.75,
+        "under_triage_rate": 0.875,
+        "over_triage_rate": 0.125
+      },
+      "gemma2:9b": {
+        "n": 8,
+        "accuracy": 0.875,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7125,
+        "calibration": -0.1625,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.125,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 8,
+        "accuracy": 0.625,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": 0.125,
+        "coherence_pass_rate": 1.0,
+        "faithfulness_pass_rate": 0.375,
+        "under_triage_rate": 0.125,
+        "over_triage_rate": 0.25
+      },
+      "chatgpt-health": {
+        "n": 8,
+        "accuracy": 0.625,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8025,
+        "calibration": 0.1775,
+        "coherence_pass_rate": 0.625,
+        "faithfulness_pass_rate": 0.625,
+        "under_triage_rate": 0.375,
+        "over_triage_rate": 0.0
+      }
+    },
+    "C": {
+      "mistral:latest": {
+        "n": 16,
+        "accuracy": 0.5625,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8125,
+        "calibration": 0.25,
+        "coherence_pass_rate": 0.375,
+        "faithfulness_pass_rate": 0.25,
+        "under_triage_rate": 0.4375,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 16,
+        "accuracy": 0.5,
+        "within_1_accuracy": 0.75,
+        "avg_confidence": 0.8156,
+        "calibration": 0.3156,
+        "coherence_pass_rate": 0.3125,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.3125,
+        "over_triage_rate": 0.1875
+      },
+      "gemma2:9b": {
+        "n": 16,
+        "accuracy": 0.8125,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7906,
+        "calibration": -0.0219,
+        "coherence_pass_rate": 0.1875,
+        "faithfulness_pass_rate": 0.375,
+        "under_triage_rate": 0.1875,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 16,
+        "accuracy": 0.625,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8562,
+        "calibration": 0.2312,
+        "coherence_pass_rate": 0.4375,
+        "faithfulness_pass_rate": 0.375,
+        "under_triage_rate": 0.125,
+        "over_triage_rate": 0.25
+      },
+      "chatgpt-health": {
+        "n": 16,
+        "accuracy": 0.875,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8206,
+        "calibration": -0.0544,
+        "coherence_pass_rate": 0.75,
+        "faithfulness_pass_rate": 0.1875,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.125
+      }
+    },
+    "D": {
+      "mistral:latest": {
+        "n": 12,
+        "accuracy": 0.4167,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8458,
+        "calibration": 0.4291,
+        "coherence_pass_rate": 0.3333,
+        "faithfulness_pass_rate": 0.1667,
+        "under_triage_rate": 0.5833,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 12,
+        "accuracy": 0.3333,
+        "within_1_accuracy": 0.9167,
+        "avg_confidence": 0.8167,
+        "calibration": 0.4834,
+        "coherence_pass_rate": 0.3333,
+        "faithfulness_pass_rate": 0.25,
+        "under_triage_rate": 0.6667,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 12,
+        "accuracy": 0.6667,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8792,
+        "calibration": 0.2125,
+        "coherence_pass_rate": 0.25,
+        "faithfulness_pass_rate": 0.1667,
+        "under_triage_rate": 0.3333,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 12,
+        "accuracy": 0.75,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8875,
+        "calibration": 0.1375,
+        "coherence_pass_rate": 0.1667,
+        "faithfulness_pass_rate": 0.1667,
+        "under_triage_rate": 0.25,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 12,
+        "accuracy": 0.9167,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.9075,
+        "calibration": -0.0092,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.0833,
+        "under_triage_rate": 0.0833,
+        "over_triage_rate": 0.0
+      }
+    },
+    "A/B": {
+      "mistral:latest": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": -0.25,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.85,
+        "calibration": -0.15,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 1.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": -0.25,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8,
+        "calibration": -0.2,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 1.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 2,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.75,
+        "calibration": -0.25,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    },
+    "B/C": {
+      "mistral:latest": {
+        "n": 4,
+        "accuracy": 0.75,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": -0.05,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.25,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 4,
+        "accuracy": 0.5,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.775,
+        "calibration": 0.275,
+        "coherence_pass_rate": 0.0,
+        "faithfulness_pass_rate": 0.75,
+        "under_triage_rate": 0.5,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 4,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7375,
+        "calibration": -0.2625,
+        "coherence_pass_rate": 0.75,
+        "faithfulness_pass_rate": 1.0,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 4,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7,
+        "calibration": -0.3,
+        "coherence_pass_rate": 0.25,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 4,
+        "accuracy": 0.75,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8125,
+        "calibration": 0.0625,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.25
+      }
+    },
+    "C/D": {
+      "mistral:latest": {
+        "n": 28,
+        "accuracy": 0.6071,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7839,
+        "calibration": 0.1768,
+        "coherence_pass_rate": 0.5357,
+        "faithfulness_pass_rate": 0.3929,
+        "under_triage_rate": 0.3929,
+        "over_triage_rate": 0.0
+      },
+      "deepseek-r1:7b": {
+        "n": 28,
+        "accuracy": 0.5714,
+        "within_1_accuracy": 0.6071,
+        "avg_confidence": 0.8089,
+        "calibration": 0.2375,
+        "coherence_pass_rate": 0.3571,
+        "faithfulness_pass_rate": 0.5,
+        "under_triage_rate": 0.4286,
+        "over_triage_rate": 0.0
+      },
+      "gemma2:9b": {
+        "n": 28,
+        "accuracy": 0.9286,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.7607,
+        "calibration": -0.1679,
+        "coherence_pass_rate": 0.4643,
+        "faithfulness_pass_rate": 0.4643,
+        "under_triage_rate": 0.0714,
+        "over_triage_rate": 0.0
+      },
+      "qwen2.5:7b": {
+        "n": 28,
+        "accuracy": 0.8929,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8071,
+        "calibration": -0.0858,
+        "coherence_pass_rate": 0.6786,
+        "faithfulness_pass_rate": 0.4643,
+        "under_triage_rate": 0.1071,
+        "over_triage_rate": 0.0
+      },
+      "chatgpt-health": {
+        "n": 28,
+        "accuracy": 1.0,
+        "within_1_accuracy": 1.0,
+        "avg_confidence": 0.8029,
+        "calibration": -0.1971,
+        "coherence_pass_rate": 0.5,
+        "faithfulness_pass_rate": 0.2857,
+        "under_triage_rate": 0.0,
+        "over_triage_rate": 0.0
+      }
+    }
+  }
+}
