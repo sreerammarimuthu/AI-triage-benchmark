@@ -1,5 +1,5 @@
 """
-experiment_runner.py — Two-phase orchestrator for the primary prompt format (Ramaswamy).
+experiment_runner.py — Two-phase orchestrator for the primary prompt format (same as the paper - Ramaswamy et. al).
 
 Phase 1 — Predictions:
   For each predictor model × 78 cases:
