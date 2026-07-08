@@ -1,6 +1,6 @@
 # Right for the Wrong Reasons: A Benchmark for Hallucination and Clinical Safety in AI Health Triage
 
-### Authors: **Sreeram Marimuthu, Roee Shraga, Xiaozhong Liu, Patricia L. Mabry**
+#### Authors: **Sreeram Marimuthu, Roee Shraga, Xiaozhong Liu, Patricia L. Mabry**
 
 Status Update: Accepted at BioDMS Workshop at VLDB 2026, Boston, USA
 
