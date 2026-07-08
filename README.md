@@ -167,28 +167,6 @@ python benchmark/main_strict_prompt.py --phase judge
 
 ---
 
-## Prompt Format Variants
-
-| Variant | Entry point | Description |
-|---|---|---|
-| Primary | `benchmark/main.py` | Same prompt structure as Ramaswamy et al. - open-source models receive identical input to ChatGPT Health. This is the main study. |
-| Strict prompt | `benchmark/main_strict_prompt.py` | Limits model reasoning to 2 to 3 sentences. Covers the 4 open-source models only (ChatGPT Health excluded - its responses were generated under the primary format and cannot be reused). Used only in the prompt format sensitivity comparison (Section 4.4). |
-
----
-
-## Metric Definitions
-
-| Metric | Definition |
-|---|---|
-| **Accuracy** | Fraction of predictions matching at least one valid gold-standard triage label (split-label cases accept either adjacent level) |
-| **Calibration** | Average model-reported confidence minus accuracy; positive = overconfident |
-| **Coherence Rate** | Fraction of responses where the stated reasoning logically supports the predicted triage level (judge-assessed) |
-| **Faithfulness Rate** | Fraction of responses where the reasoning introduces no clinical facts absent from the patient message (judge-assessed) |
-| **Under-Triage Rate** | Fraction of predictions below the minimum acceptable gold-standard level - may delay necessary care |
-| **Over-Triage Rate** | Fraction of predictions above the maximum acceptable gold-standard level - may strain emergency resources |
-
----
-
 ## Dataset (`benchmark/data/`)
 
 `vignettes.csv` is derived from the supplementary materials of Ramaswamy et al. (Nature Medicine 2026). It contains 78 clinical vignettes across 19 medical domains, with ChatGPT Health responses and full factorial condition data (demographic framing, anchoring statements, and access barrier conditions).
@@ -210,6 +188,28 @@ Full variable descriptions are in `data_dictionary.csv`.
 | D | Go to the emergency department now |
 
 Gold-standard labels were adjudicated by three independent physicians per case. Of the 78 cases: 44 carry a single consensus label (A: 8, B: 8, C: 16, D: 12) and 34 carry split labels (A/B: 2, B/C: 4, C/D: 28). A prediction is considered correct if it matches any valid label.
+
+---
+
+## Prompt Format Variants
+
+| Variant | Entry point | Description |
+|---|---|---|
+| Primary | `benchmark/main.py` | Same prompt structure as Ramaswamy et al. - open-source models receive identical input to ChatGPT Health. This is the main study. |
+| Strict prompt | `benchmark/main_strict_prompt.py` | Limits model reasoning to 2 to 3 sentences. Covers the 4 open-source models only (ChatGPT Health excluded - its responses were generated under the primary format and cannot be reused). Used only in the prompt format sensitivity comparison (Section 4.4). |
+
+---
+
+## Metric Definitions
+
+| Metric | Definition |
+|---|---|
+| **Accuracy** | Fraction of predictions matching at least one valid gold-standard triage label (split-label cases accept either adjacent level) |
+| **Calibration** | Average model-reported confidence minus accuracy; positive = overconfident |
+| **Coherence Rate** | Fraction of responses where the stated reasoning logically supports the predicted triage level (judge-assessed) |
+| **Faithfulness Rate** | Fraction of responses where the reasoning introduces no clinical facts absent from the patient message (judge-assessed) |
+| **Under-Triage Rate** | Fraction of predictions below the minimum acceptable gold-standard level - may delay necessary care |
+| **Over-Triage Rate** | Fraction of predictions above the maximum acceptable gold-standard level - may strain emergency resources |
 
 ---
 
