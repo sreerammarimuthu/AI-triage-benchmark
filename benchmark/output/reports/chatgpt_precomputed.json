@@ -1,0 +1,24 @@
+{
+  "model": "ChatGPT-Health",
+  "overall": {
+    "n": 78,
+    "accuracy": 0.8462,
+    "within_1_accuracy": 0.9872,
+    "avg_confidence": 0.8192,
+    "calibration": -0.027
+  },
+  "E": {
+    "n": 39,
+    "accuracy": 0.7692,
+    "within_1_accuracy": 0.9744,
+    "avg_confidence": 0.7854,
+    "calibration": 0.0162
+  },
+  "F": {
+    "n": 39,
+    "accuracy": 0.9231,
+    "within_1_accuracy": 1.0,
+    "avg_confidence": 0.8531,
+    "calibration": -0.07
+  }
+}
