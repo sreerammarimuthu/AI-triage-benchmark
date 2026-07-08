@@ -105,12 +105,12 @@ All commands run from the **project root** (the folder containing this README).
 
 Loads the included checkpoint files and recomputes metrics without any new model calls. This is the fastest way to verify all reported numbers.
 
-**Primary results (Ramaswamy prompt — main paper results):**
+**Primary results (Ramaswamy prompt - main paper results):**
 ```bash
 python benchmark/main.py --from-checkpoint
 ```
 
-**Strict prompt results (prompt sensitivity — Section 4.4):**
+**Strict prompt results (prompt sensitivity - Section 4.4):**
 ```bash
 python benchmark/main_strict_prompt.py --from-checkpoint
 ```
@@ -156,16 +156,14 @@ python benchmark/main_strict_prompt.py --phase judge
 
 ## Evaluation Pipeline
 
-**Phase 1 — Predictions.** Each open-source predictor model processes all 78 vignettes using the same prompt format as Ramaswamy et al. (2026): an explanation (max 150 words), a triage level (A-D), and a confidence score (0-100%). Each result is immediately written to a JSON checkpoint for fault tolerance. ChatGPT Health predictions are loaded directly from the Ramaswamy dataset.
+**Phase 1 - Predictions.** Each open-source predictor model processes all 78 vignettes using the same prompt format as Ramaswamy et al. (2026): an explanation (max 150 words), a triage level (A-D), and a confidence score (0-100%). Each result is immediately written to a JSON checkpoint for fault tolerance. ChatGPT Health predictions are loaded directly from the Ramaswamy dataset.
 
-**Phase 2 — Hallucination Checks.** Llama 3.1 8B (via Ollama) runs two independent checks on each checkpoint entry:
+**Phase 2 - Hallucination Checks.** Llama 3.1 8B (via Ollama) runs two independent checks on each checkpoint entry:
 
-1. **Clinical Reasoning Coherence** — does the reasoning logically support the predicted triage level?
-2. **Faithfulness to Clinical Context** — does the reasoning introduce any clinical facts (symptoms, diagnoses, test results, medications, vital signs, or other clinical details) not present in the original patient message?
+1. **Clinical Reasoning Coherence**: does the reasoning logically support the predicted triage level?
+2. **Faithfulness to Clinical Context**: does the reasoning introduce any clinical facts (symptoms, diagnoses, test results, medications, vital signs, or other clinical details) not present in the original patient message?
 
-> **Note on faithfulness:** The check is intentionally strict — it flags any clinical content beyond what the patient stated, including appropriate clinical inferences. Faithfulness Rate results reflect strict surface-level grounding, not clinical correctness.
-
-> **Note on judge coverage:** One case in the strict prompt variant (Qwen2.5 7B, case NH4 — a mental health vignette involving suicidal ideation) triggered the safety filter of the Llama 3.1 8B judge during the faithfulness check. The coherence verdict for that case was obtained normally; only the faithfulness check could not be completed. That single case is excluded from the Qwen2.5 7B faithfulness rate denominator in the strict prompt results (N=77 for faithfulness, N=78 for all other metrics).
+> **Note on faithfulness:** The check is intentionally strict, it flags any clinical content beyond what the patient stated, including appropriate clinical inferences. Faithfulness Rate results reflect strict surface-level grounding, not clinical correctness.
 
 ---
 
@@ -173,8 +171,8 @@ python benchmark/main_strict_prompt.py --phase judge
 
 | Variant | Entry point | Description |
 |---|---|---|
-| Primary | `benchmark/main.py` | Same prompt structure as Ramaswamy et al. — open-source models receive identical input to ChatGPT Health. This is the main study. |
-| Strict prompt | `benchmark/main_strict_prompt.py` | Limits model reasoning to 2 to 3 sentences. Covers the 4 open-source models only (ChatGPT Health excluded — its responses were generated under the primary format and cannot be reused). Used only in the prompt format sensitivity comparison (Section 4.4). |
+| Primary | `benchmark/main.py` | Same prompt structure as Ramaswamy et al. - open-source models receive identical input to ChatGPT Health. This is the main study. |
+| Strict prompt | `benchmark/main_strict_prompt.py` | Limits model reasoning to 2 to 3 sentences. Covers the 4 open-source models only (ChatGPT Health excluded - its responses were generated under the primary format and cannot be reused). Used only in the prompt format sensitivity comparison (Section 4.4). |
 
 ---
 
@@ -186,8 +184,8 @@ python benchmark/main_strict_prompt.py --phase judge
 | **Calibration** | Average model-reported confidence minus accuracy; positive = overconfident |
 | **Coherence Rate** | Fraction of responses where the stated reasoning logically supports the predicted triage level (judge-assessed) |
 | **Faithfulness Rate** | Fraction of responses where the reasoning introduces no clinical facts absent from the patient message (judge-assessed) |
-| **Under-Triage Rate** | Fraction of predictions below the minimum acceptable gold-standard level — may delay necessary care |
-| **Over-Triage Rate** | Fraction of predictions above the maximum acceptable gold-standard level — may strain emergency resources |
+| **Under-Triage Rate** | Fraction of predictions below the minimum acceptable gold-standard level - may delay necessary care |
+| **Over-Triage Rate** | Fraction of predictions above the maximum acceptable gold-standard level - may strain emergency resources |
 
 ---
 
@@ -197,8 +195,8 @@ python benchmark/main_strict_prompt.py --phase judge
 
 The main study uses 78 vignettes under a clean reference condition (no demographic manipulation, anchoring, or access barriers):
 
-- 39 full clinical prompts — vitals, physical exam findings, and lab results included along with the symptoms-only prompt for each occasion
-- 39 symptoms-only prompts — symptoms and history only
+- 39 full clinical prompts - vitals, physical exam findings, and lab results included along with the symptoms-only prompt for each occasion
+- 39 symptoms-only prompts - symptoms and history only
 
 Full variable descriptions are in `data_dictionary.csv`.
 
