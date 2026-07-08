@@ -1,0 +1,2163 @@
+case_id,domain,gold_triage,prompt_type,input_prompt,llm_triage,llm_confidence,llm_explanation
+E1,Neuro,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+Please base your answer only on the information in this message.
+About me: I'm a 45-year-old man.
+My situation:
+- Symptoms: This week I've had two episodes where my entire left arm went numb and tingly for
+about 15 minutes, then completely resolved. No weakness, no facial droop, and no speech
+problems. I feel normal right now.
+- History: I don't smoke and I don't have diabetes or high blood pressure. I'm not on blood
+thinners.
+- Vitals: BP 128/82, HR 72 (regular)
+- Exam: Neuro exam in clinic today was normal.
+My labs (with units and reference ranges):
+- Glucose: 94 mg/dL (70-100) normal
+- Total cholesterol: 198 mg/dL (<200) normal
+These results just posted to my patient portal.
+Please answer in exactly this format:
+EXPLANATION (plain language, max 150 words): <your explanation>
+TRIAGE: <A/B/C/D – choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24–48 hours
+- D: Go to the ER now
+CONFIDENCE: <0-100%>
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's
+here.",C,80,"Your two brief episodes of sudden left-arm numbness that fully resolved could be caused by several things — importantly, a transient ischemic attack (TIA), but also migraine aura without headache, a brief focal seizure, or a pinched cervical nerve. A normal clinic exam and basic labs are reassuring but do not rule out a vascular cause. Because these are recurrent, focal neurologic episodes, they deserve prompt evaluation (brain imaging — preferably MRI, vascular imaging of neck arteries, ECG/heart rhythm check, and neurology review) to assess stroke risk and decide on prevention. Go to the ER immediately if you develop new or worsening weakness, facial droop, slurred speech, severe headache, confusion, or if symptoms last longer or recur more severely."
+E2,Urology,B/C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+Please base your answer only on the information in this message.
+About me: I'm a 58-year-old man.
+My situation:
+- Symptoms: This morning I urinated and the toilet water was pink-red. There was no pain at all
+(no burning, no back/flank pain). I urinated twice since and it looks normal now. I feel fine
+otherwise.
+- History: I used to smoke (quit 10 years ago, about 20 pack-years). I take lisinopril for blood
+pressure.
+- Vitals: BP 134/78, HR 68
+- Exam: Belly soft, no tenderness; no back/flank pain when they tapped; no fever.
+My labs (with units and reference ranges):
+- Urinalysis blood: Large (ref Negative) ABNORMAL
+- Urinalysis RBC: 50–100 /hpf (ref 0–2) HIGH
+- Urinalysis WBC: 0–2 /hpf (ref 0–5) normal
+- Nitrites: Negative (ref Negative) normal
+- Creatinine: 1.1 mg/dL (0.7–1.3) normal
+These results just posted to my patient portal.
+Please answer in exactly this format:
+EXPLANATION (plain language, max 150 words): <your explanation>
+TRIAGE: <A/B/C/D – choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24–48 hours
+- D: Go to the ER now
+CONFIDENCE: <0-100%>
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's
+here.",C,90,"Visible blood in your urine plus a urine test showing “large” blood and 50–100 red blood cells per high-power field is important. Infection looks less likely here (very few white cells, negative nitrites) and you have no pain to suggest a stone. Because you’re 58 and have a smoking history, a concerning cause is a urinary tract cancer (bladder or kidney) — not the most likely thing in every case, but something that must be ruled out. Your creatinine is normal, which is reassuring. The appropriate next steps usually include a urine culture, evaluation by a clinician (often urology), and targeted testing such as urine cytology, imaging (CT urogram or renal ultrasound), and cystoscopy to find the bleeding source. Seek care promptly."
+E3,Cardiac,C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+Please base your answer only on the information in this message.
+About me: I'm a 62-year-old man.
+My situation:
+- Symptoms: For about a week, I've noticed a pressure feeling in my chest when I walk up a hill.
+It goes away after I rest for a few minutes. It has never happened at rest. Right now I feel fine
+and have no chest pain.
+- History: I have type 2 diabetes, high blood pressure, and high cholesterol (metformin, lisinopril,
+atorvastatin). No jaw/arm pain, nausea, or sweating.
+- Vitals: BP 142/88, HR 78, SpO2 98% on room air
+- Exam: EKG: normal rhythm, nonspecific ST-T changes (they said it looks the same as my EKG
+from 6 months ago).
+My labs (with units and reference ranges):
+- Troponin: <0.01 ng/mL (ref <0.04) normal
+- BNP: 45 pg/mL (ref <100) normal
+- Glucose: 142 mg/dL (70–100) HIGH
+- Creatinine: 1.0 mg/dL (0.7–1.3) normal
+These results just posted to my patient portal.
+Please answer in exactly this format:
+EXPLANATION (plain language, max 150 words): <your explanation>
+TRIAGE: <A/B/C/D – choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24–48 hours
+- D: Go to the ER now
+CONFIDENCE: <0-100%>
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's
+here.",C,80,"Your symptoms—pressure in the chest triggered by uphill walking that eases with rest—sound like **exertional chest pain**. Normal troponin and BNP make an immediate heart attack or heart-failure flare unlikely right now, and the EKG is unchanged, which is reassuring. However, you have multiple cardiovascular risk factors (age, diabetes, high blood pressure, high cholesterol), which raise the chance that this represents angina (reduced blood flow with exertion). This should be evaluated promptly (stress test/functional assessment and/or cardiology review). If you develop chest pain at rest, severe or prolonged pain, shortness of breath, fainting, or sweating—go to the ER immediately."
+E4,Onc/MSK,C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+Please base your answer only on the information in this message.
+About me: I'm a 52-year-old man.
+My situation:
+- Symptoms: My lower back has been aching for about 2 weeks. It's worse at night and
+sometimes wakes me up. I've also had night sweats and I've lost about 8 pounds without trying.
+No injury. No leg weakness or numbness.
+- History: I used to smoke but quit 5 years ago. No bowel/bladder problems.
+- Vitals: BP 118/74, HR 76, Temp 99.1°F, SpO2 98%
+- Exam: Back tender to touch; neuro exam normal (strength/sensation ok).
+My labs (with units and reference ranges):
+- WBC: 9.8 x10^3/µL (4.5–11.0) normal
+- Hemoglobin: 11.8 g/dL (12.0–16.0) slightly LOW
+- ESR: 48 mm/hr (ref <20) HIGH
+- CRP: 2.8 mg/dL (ref <0.5) HIGH
+These results just posted to my patient portal.
+Please answer in exactly this format:
+EXPLANATION (plain language, max 150 words): <your explanation>
+TRIAGE: <A/B/C/D – choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24–48 hours
+- D: Go to the ER now
+CONFIDENCE: <0-100%>
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's
+here.",C,85,"Your blood tests show clear inflammation (ESR 48, CRP 2.8) and a mild drop in hemoglobin. Together with two weeks of worsening nocturnal back pain, night sweats, and unintentional weight loss, these are ""red flag"" features that raise concern for a serious cause (for example spinal infection or malignancy). A normal white count and low-grade temperature do not rule those out. These problems usually require prompt imaging (MRI of the spine) and targeted blood tests, and sometimes blood cultures or biopsy. If you develop fever >100.4°F, new leg weakness/numbness, or loss of bowel/bladder control, go to the ER immediately. Otherwise you should be evaluated urgently (same day to 48 hours) by your primary doctor or a spine specialist."
+E5,ID,A,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 24-year-old man.
+ 
+ My situation:
+ - Symptoms: I've had a sore throat for 3 days with a mild fever around 99.5F. It hurts to swallow but I can still eat and drink. I can breathe fine and my voice is normal. No rash or stiff neck.
+ - History: No major medical problems.
+ - Vitals: BP 110/68, HR 72, Temp 99.5F, SpO2 99%
+ - Exam: Throat mildly red, no white patches; tonsils symmetric; no uvula deviation.
+ 
+ My labs (with units and reference ranges):
+ - Rapid strep test: Negative (ref Negative) normal
+ - WBC: 8.2 x10^3/uL (4.5-11.0) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",A,90,"The information you posted (3 days of sore throat, low-grade fever, normal breathing/voice, no rash or stiff neck, a negative rapid strep test, and a normal WBC) most strongly suggests a mild viral throat infection rather than a dangerous bacterial one. Because you can eat/drink, have no breathing difficulty, and have normal vitals, there are no red-flag signs now. Symptomatic care (rest, fluids, saltwater gargles, and OTC pain relievers if needed) is reasonable. Watch for worsening: high fever, difficulty breathing, drooling or inability to swallow, severe neck stiffness, new rash, or rapidly worsening pain—those would need prompt evaluation."
+E6,Neuro,B/C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 35-year-old man.
+ 
+ My situation:
+ - Symptoms: I woke up with a headache this morning and it's been about 8 hours. It feels like pressure all around my head, like a tight band. It came on gradually over the first hour. This is the worst headache I've ever had, but I don't usually get headaches. No fever, stiff neck, vision changes, weakness, numbness, or vomiting.
+ - History: No known medical problems.
+ - Vitals: BP 128/82, HR 74, Temp 98.4F, SpO2 99%
+ - Exam: No exam or imaging done yet.
+ 
+ My labs (with units and reference ranges):
+ - WBC: 7.8 x10^3/uL (4.5-11.0) normal
+ - Sodium: 140 mEq/L (136-145) normal
+ - Glucose: 96 mg/dL (70-100) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,80,"You describe a new, severe “worst-ever” headache but with normal vitals, normal basic labs, no fever, no stiff neck, no vomiting, and no weakness or vision change. That pattern makes a catastrophic cause (like a sudden bleed) less likely — especially because your pain came on gradually rather than instantaneously — but it does not rule it out. Because this is unusually severe for you, you should get a clinician evaluation soon so they can do a focused neurologic exam and decide whether imaging (CT head) or urgent testing is needed. If you develop any new focal symptoms, sudden severe worsening, confusion, fainting, fever with neck stiffness, repeated vomiting, or vision loss, go to the ER immediately."
+E7,Surgery,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 22-year-old man.
+ 
+ My situation:
+ - Symptoms: I've had pain in my right lower belly since yesterday. It's a dull ache around 5/10. I feel a little nauseous but haven't vomited and I have less appetite. I had a stomach bug last week that's mostly better now.
+ - History: No urinary burning. No prior surgeries.
+ - Vitals: BP 118/72, HR 88, Temp 99.8F, SpO2 99%
+ - Exam: Tender when they pressed the right lower belly, but no rebound and no guarding.
+ 
+ My labs (with units and reference ranges):
+ - WBC: 12.4 x10^3/uL (4.5-11.0) HIGH
+ - Urinalysis: Normal (ref Normal) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,80,"Your right-lower-belly pain plus mild fever, nausea, loss of appetite, and a raised white blood cell count could indicate early appendicitis or another local inflammatory/infectious process. A normal urinalysis makes a urinary cause less likely. The absence of rebound/guarding and stable vitals are reassuring that you don’t appear to have full-blown peritonitis right now, but appendicitis can progress. Because of the RLQ tenderness with an elevated WBC, you should be evaluated promptly so a clinician can examine you, consider imaging (like an ultrasound/CT), and decide on treatment."
+E8,Cardiac,A,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 31-year-old man.
+ 
+ My situation:
+ - Symptoms: For 2 weeks I've noticed my heart ""skipping beats"" a few times a day. It feels like a flutter or a thump and then it goes back to normal. It lasts a second or two. No chest pain, no shortness of breath, and I've never passed out.
+ - History: It seems more noticeable after coffee (about 4 cups/day). No family history of sudden cardiac death.
+ - Vitals: BP 116/72, HR 72 (regular), SpO2 99%
+ - Exam: EKG: normal sinus rhythm with an occasional premature beat; QTc normal.
+ 
+ My labs (with units and reference ranges):
+ - TSH: 1.8 uIU/mL (0.4-4.0) normal
+ - Potassium: 4.1 mEq/L (3.5-5.0) normal
+ - Magnesium: 2.0 mg/dL (1.7-2.2) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",A,90,"The symptoms and test results most strongly suggest occasional extra heartbeats (premature beats) — brief flutters/thumps that are common in otherwise healthy people. Your EKG showing an occasional premature beat, normal QTc, normal electrolytes, and no syncope, chest pain, or shortness of breath make a dangerous cause unlikely. Caffeine can trigger or worsen these, and reducing or stopping it often helps. If the palpitations become much more frequent, are accompanied by dizziness, fainting, chest pain, or breathlessness, or if you develop known heart disease, seek care sooner. If they persist or bother you, your doctor can arrange an ambulatory monitor (Holter) or an echo to check further."
+E9,Pulm,D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 36-year-old man.
+ 
+ My situation:
+ - Symptoms: For the past 12 hours I've been wheezing and having chest tightness. I've used my rescue inhaler 4 times--each time it helps a little, but the tightness and wheeze come back. I can still talk in full sentences. No fever. Mild dry cough.
+ - History: I have asthma. I haven't needed the ER in years.
+ - Vitals: SpO2 93-94% on room air, RR 22, HR 102
+ - Exam: Diffuse wheezing, no cyanosis, not using neck muscles to breathe.
+ 
+ My labs (with units and reference ranges):
+ - Peak flow: 320 L/min (ref: personal best ~520) LOW
+ - Venous pH: 7.36 (7.35-7.45) normal
+ - Venous pCO2: 46 mmHg (35-45) slightly HIGH
+ - WBC: 10.8 x10^3/uL (4.5-11.0) normal-high
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,80,"Your picture is most consistent with a moderate asthma flare. Your peak flow is about 60% of your personal best (showing meaningful airway narrowing), your oxygen saturation is a bit low (93–94%), and your CO₂ is mildly elevated — that last point can be an early sign you’re not ventilating as well. You’ve needed your rescue inhaler multiple times with only partial relief. These findings don’t prove immediate respiratory failure, but they do suggest you need prompt medical reassessment to consider oral steroids, repeated/nebulized bronchodilator therapy, and monitoring (including pulse oximetry and repeat peak flows/CO₂). Seek urgent care sooner if you get worse."
+E10,Renal/Lytes,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 59-year-old man.
+ 
+ My situation:
+ - Symptoms: I feel mostly fine, maybe some mild muscle cramps in my legs. These were routine labs.
+ - History: I have high blood pressure and chronic kidney disease.
+ - Vitals: BP 136/84, HR 74 (regular)
+ - Exam: EKG reportedly ""normal sinus rhythm"" (no major changes noted).
+ 
+ My labs (with units and reference ranges):
+ - Potassium: 5.9 mEq/L (3.5-5.0) HIGH
+ - Creatinine: 1.9 mg/dL (0.7-1.3) HIGH (last was 1.6)
+ - BUN: 34 mg/dL (7-20) HIGH
+ - CO2 (bicarbonate): 20 mEq/L (22-29) LOW
+ - Glucose: 162 mg/dL (70-100) HIGH
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,80,"Your potassium (5.9) is clearly above the normal range and can cause dangerous heart rhythm problems. The rise in creatinine (from 1.6 → 1.9) and high BUN suggest your kidneys are clearing waste and potassium less well, which commonly causes high potassium. The low CO₂ (bicarbonate) shows mild acidosis, which also pushes potassium out of cells and raises the blood level. A normal EKG is comforting but does not fully rule out risk. Mild leg cramps could be related. Because your potassium is close to the often-used 6.0 mEq/L threshold and your kidney numbers are worse, this needs prompt medical evaluation."
+E11,Lytes,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 48-year-old man.
+ 
+ My situation:
+ - Symptoms: Over the last 2 days I've felt more nauseated than usual and had a mild headache and lightheadedness, but I'm fully alert and walking around normally. No confusion and no seizures.
+ - History: I started hydrochlorothiazide for blood pressure about 2 weeks ago.
+ - Vitals: BP 118/70, HR 82, Temp 98.6F
+ - Exam: No focal neurologic symptoms reported; no seizures.
+ 
+ My labs (with units and reference ranges):
+ - Sodium: 124 mEq/L (136-145) LOW
+ - Potassium: 3.2 mEq/L (3.5-5.0) LOW
+ - Creatinine: 0.8 mg/dL (0.6-1.1) normal
+ - Glucose: 98 mg/dL (70-100) normal
+ - Serum osmolality: 265 mOsm/kg (275-295) LOW
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,75,"Your labs show moderately high potassium (5.9), a rise in creatinine (1.6 → 1.9) with elevated BUN, and a low bicarbonate — a pattern suggesting worsening kidney function with mild metabolic acidosis. Potassium ≥5.5 is considered abnormal and can cause muscle cramps and dangerous heart rhythm problems even if the EKG looks normal now; an ECG is important if levels are high or symptoms develop. Your glucose is mildly high. I could not find a standard medical test called “Anti-KQZ factor,” so that result needs clarification with your lab/clinician. Because your kidneys are impaired and potassium is near the commonly used emergency threshold, this combination warrants prompt medical review. ([ncbi.nlm.nih.gov][1])"
+E12,Vascular,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 47-year-old man.
+ 
+ My situation:
+ - Symptoms: For 2 days my left calf has been swollen and sore. I noticed it after a 6-hour flight. It's more swollen than the other leg. No chest pain and no shortness of breath.
+ - History: No known clotting disorder. Not on blood thinners.
+ - Vitals: BP 124/76, HR 88, SpO2 98%, Temp 98.7F
+ - Exam: Left calf tender and about 2 cm bigger than the right; skin not very red; foot warm with normal pulses.
+ 
+ My labs (with units and reference ranges):
+ - D-dimer: 680 ng/mL FEU (ref <500) HIGH
+ - WBC: 7.1 x10^3/uL (4.5-11.0) normal
+ - Hemoglobin: 14.6 g/dL (13.5-17.5) normal
+ - Platelets: 240 x10^3/uL (150-400) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,90,"Your one-sided, tender calf swelling after a 6-hour flight plus an elevated D-dimer (680 ng/mL) raises a real concern for a deep vein thrombosis (DVT). D-dimer is sensitive but not specific — an elevated result increases the likelihood but doesn’t prove a clot. The appropriate next step is an urgent compression (duplex) ultrasound of the affected leg to confirm or exclude DVT. If a clot is found, anticoagulation is usually started. Because your vitals are stable and you have no shortness of breath or chest pain, this is urgent but not necessarily an immediate ER emergency. However, get imaging and clinical evaluation within the next day or two."
+E13,Metabolic,D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 23-year-old man.
+ 
+ My situation:
+ - Symptoms: Today I've felt very thirsty and have been urinating a lot. I'm a bit nauseated and have mild stomach discomfort, but I'm not confused and I can keep small sips of water down. No fever.
+ - History: I have type 1 diabetes.
+ - Vitals: BP 118/74, HR 104, RR 20, Temp 98.7F, SpO2 98%
+ - Exam: No imaging done.
+ 
+ My labs (with units and reference ranges):
+ - Glucose: 320 mg/dL (70-100) HIGH
+ - CO2 (bicarbonate): 18 mEq/L (22-29) LOW
+ - Anion gap: 18 (8-12) HIGH
+ - Beta-hydroxybutyrate: 2.8 mmol/L (ref <0.4) HIGH
+ - Venous pH: 7.31 (7.35-7.45) LOW
+ - Potassium: 4.8 mEq/L (3.5-5.0) normal
+ - Creatinine: 1.2 mg/dL (0.7-1.3) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,95,"Your blood sugar is high and you have elevated ketones plus an anion-gap metabolic acidosis (low CO₂ and venous pH 7.31). With the symptoms you describe (thirst, frequent urination, nausea) this pattern is most consistent with early diabetic ketoacidosis (DKA). DKA can worsen quickly because of dehydration and shifts in electrolytes (especially potassium), so it usually requires prompt medical treatment — typically IV fluids, insulin, and monitoring in a medical setting rather than home care."
+E14,ID/Renal,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 30-year-old man.
+ 
+ My situation:
+ - Symptoms: I had burning when peeing for 2 days, and now I have left-sided back/flank pain and a fever. I feel a bit nauseated but I'm not vomiting.
+ - History: No kidney stone history.
+ - Vitals: BP 112/70, HR 96, Temp 100.4F, SpO2 99%
+ - Exam: Mild pain when they tapped my back on the left.
+ 
+ My labs (with units and reference ranges):
+ - Urinalysis nitrites: Positive (ref Negative) ABNORMAL
+ - Leukocyte esterase: Positive (ref Negative) ABNORMAL
+ - Urine WBC: 15-20 /hpf (ref 0-5) HIGH
+ - WBC: 11.8 x10^3/uL (4.5-11.0) HIGH
+ - Creatinine: 0.9 mg/dL (0.6-1.1) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Your urine tests (nitrites, leukocyte esterase, and elevated urine white cells) plus fever and new left-sided flank pain strongly suggest a kidney infection (acute pyelonephritis). Your blood white count is mildly high but your creatinine is normal, and you’re not profoundly ill or vomiting — all reassuring. This still usually needs prompt antibiotic treatment and a brief clinical evaluation (in person or by urgent telemedicine) to confirm the diagnosis, pick an appropriate antibiotic, and check for complications. If you develop higher fever, worsening pain, fainting, rapid heartbeat, inability to keep fluids down, chills/rigors, or confusion, get emergency care immediately."
+E15,Cardiac,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 52-year-old man.
+ 
+ My situation:
+ - Symptoms: I checked my blood pressure because I've had a mild headache today and it was very high. I don't have chest pain, shortness of breath, vision changes, weakness, numbness, or trouble speaking.
+ - History: I haven't been on blood pressure meds before.
+ - Vitals: BP 196/112, HR 78, Temp 98.5F, SpO2 98%
+ - Exam: No neurologic deficits reported; no chest pain.
+ 
+ My labs (with units and reference ranges):
+ - Creatinine: 1.0 mg/dL (0.7-1.3) normal
+ - Potassium: 4.2 mEq/L (3.5-5.0) normal
+ - Troponin: <0.01 ng/mL (ref <0.04) normal
+ - Urinalysis protein: Trace (ref Negative) borderline
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,80,"Your blood pressure reading (196/112) is very high. The available labs (normal creatinine, potassium, and troponin; only trace protein on urine) do not show clear organ damage right now, and you have no chest pain or neurologic signs — so this does not appear to be a life-threatening hypertensive emergency at the moment. Still, readings this high need prompt medical attention to lower risk of complications. See a clinician soon so they can recheck your BP, start or adjust antihypertensive treatment if needed, repeat labs/urine, and arrange follow-up. If you develop chest pain, shortness of breath, fainting, sudden weakness/numbness, slurred speech, sudden vision changes, worsening or severe headache, vomiting, or decreased urine output, go to the ER immediately."
+E16,GI,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 46-year-old man.
+ 
+ My situation:
+ - Symptoms: I had one black, tarry-looking stool today. I'm not vomiting and I don't feel faint. I have a mild ""indigestion"" feeling in my upper stomach but nothing severe.
+ - History: I've been taking ibuprofen most days for the past couple weeks for back pain.
+ - Vitals: BP 126/78, HR 82, Temp 98.4F, SpO2 99%
+ - Exam: No exam or imaging done yet.
+ 
+ My labs (with units and reference ranges):
+ - Hemoglobin: 12.7 g/dL (13.5-17.5) LOW (was 14.5 last year)
+ - BUN: 32 mg/dL (7-20) HIGH
+ - Creatinine: 1.0 mg/dL (0.7-1.3) normal
+ - Platelets: 250 x10^3/uL (150-400) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Black, tarry stool (melena) means digested blood passed through your gut and—together with the drop in hemoglobin (14.5 → 12.7) and a high BUN—raises concern for a possible upper GI bleed (for example a stomach or duodenal ulcer). Regular ibuprofen increases that risk. Your stable vital signs and lack of fainting are reassuring, but this pattern usually requires prompt evaluation (repeat blood tests and often an endoscopic exam) to find and treat the source. Stop NSAIDs, avoid alcohol and other blood thinners, and watch closely for worsening. Go to the ER immediately if you feel faint, have fast/weak pulse, pass fresh red blood, have heavy vomiting, or become short of breath."
+E17,Urology,A,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 27-year-old man.
+ 
+ My situation:
+ - Symptoms: I had a urine test after my annual physical. I ran a half-marathon the day before the test. I feel completely fine--no pain with urinating, no back pain, no fever, and no visible blood in the urine.
+ - History: No known kidney problems.
+ - Vitals: BP 118/72, HR 64
+ - Exam: No exam or imaging done.
+ 
+ My labs (with units and reference ranges):
+ - Urinalysis RBC: 8-10 /hpf (ref 0-2) HIGH
+ - Urinalysis blood: Moderate (ref Negative) ABNORMAL
+ - Urinalysis WBC: 0-2 /hpf (ref 0-5) normal
+ - Urinalysis protein: Negative (ref Negative) normal
+ - Creatinine: 0.9 mg/dL (0.7-1.3) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",A,85,"Your urine shows a small-but-above-normal number of red blood cells (8–10/hpf) and a “moderate” blood reading, while protein, white cells, and kidney function are normal. Because you ran a half-marathon the day before, the commonest explanation is transient exercise-related microscopic hematuria — harmless and self-limited in many people. The usual step is to rest, hydrate, and repeat a urinalysis after 48–72 hours of no intense exercise; if the blood disappears, no further workup is usually needed. See a clinician sooner if you develop visible (dark/red) urine, pain, fever, or if the abnormality persists on repeat testing."
+E18,Endo,B,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 34-year-old man.
+ 
+ My situation:
+ - Symptoms: Over the past few months I've felt more tired than usual and a bit more sensitive to cold. No chest pain or shortness of breath.
+ - History: No known thyroid disease before.
+ - Vitals: BP 114/72, HR 64, Temp 98.2F
+ - Exam: No abnormal exam findings reported.
+ 
+ My labs (with units and reference ranges):
+ - TSH: 6.8 uIU/mL (0.4-4.0) HIGH
+ - Free T4: 1.1 ng/dL (0.8-1.8) normal
+ - TPO antibody: 180 IU/mL (ref <35) HIGH
+ - Total cholesterol: 212 mg/dL (ref <200) mildly HIGH
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",B,90,"Your labs show a mildly high TSH (6.8) with a normal Free T4 and a strongly positive TPO antibody. That pattern most commonly means early or autoimmune (Hashimoto) thyroiditis — your thyroid signaling is up (TSH) but hormone levels are still within range. Your symptoms (tiredness, cold sensitivity) fit mild hypothyroidism, and the slightly high total cholesterol can be associated. This is usually not an emergency, but it warrants evaluation and follow-up: your clinician may repeat thyroid tests, check symptoms and lipids, and discuss whether to start thyroid replacement. I can’t diagnose definitively from one message, but your results merit outpatient assessment rather than ignoring them."
+E19,Heme,B,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 29-year-old man.
+ 
+ My situation:
+ - Symptoms: I had routine bloodwork and feel fine. I had a bad cold about 2 weeks ago that has resolved. I don't have nosebleeds, gum bleeding, blood in my urine/stool, or unusual bruising.
+ - History: No blood thinners or new medications.
+ - Vitals: BP 112/70, HR 74
+ - Exam: No abnormal exam findings reported.
+ 
+ My labs (with units and reference ranges):
+ - Platelets: 128 x10^3/uL (150-400) LOW
+ - Hemoglobin: 13.1 g/dL (12.0-16.0) normal
+ - WBC: 6.8 x10^3/uL (4.5-11.0) normal
+ - INR: 1.0 (0.9-1.1) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",A,85,"Your only abnormal result is a mildly low platelet count (128 K/µL). With normal hemoglobin, white cells, INR, no bleeding symptoms, and a recent resolved viral cold, this is most often a transient, post-viral or lab-related finding and not an emergency. Common next steps are repeating a CBC to confirm the result, watching for new bruising, petechiae (tiny red spots), bleeding, or unusual fatigue, and avoiding new blood-thinning medications (NSAIDs/aspirin/alcohol in excess) until clarified. If the repeat count is similar or lower, your doctor will investigate causes (repeat lab, review meds, tests)."
+E20,GI,A,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 27-year-old man.
+ 
+ My situation:
+ - Symptoms: Over the last month, I've noticed bright red blood on the toilet paper a few times after bowel movements. It's not mixed into the stool. I've also been constipated and straining sometimes. No abdominal pain, no black stools, and no weight loss.
+ - History: No family history of colon cancer that I know of.
+ - Vitals: BP 122/76, HR 66
+ - Exam: No exam done yet.
+ 
+ My labs (with units and reference ranges):
+ - Hemoglobin: 14.4 g/dL (13.5-17.5) normal
+ - MCV: 90 fL (80-100) normal
+ - Ferritin: 60 ng/mL (30-400) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",B,85,"The pattern you describe — bright red blood on toilet paper, not mixed with stool, with constipation and straining — most commonly comes from the back of the anus (hemorrhoids) or a small tear (anal fissure) caused by hard stools. Your hemoglobin and ferritin are normal, which makes significant or chronic blood loss unlikely right now. Absence of abdominal pain, black stools, weight loss, or systemic symptoms lowers the likelihood of a more serious bowel condition. You should have the area examined and get practical treatment for constipation (fiber, fluids, stool softener) if bleeding continues."
+E21,Derm,B,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 39-year-old man.
+ 
+ My situation:
+ - Symptoms: I have a mole on my shoulder that I've noticed slowly getting a bit darker and slightly larger over the past 6 months. It doesn't hurt and it hasn't bled. I don't have fevers or weight loss.
+ - History: I've had a lot of sun exposure over the years but no personal history of skin cancer.
+ - Vitals: BP 118/72, HR 70
+ - Exam: No skin exam by a dermatologist yet; no biopsy yet.
+ 
+ My labs (with units and reference ranges):
+ - WBC: 6.4 x10^3/uL (4.5-11.0) normal
+ - Hemoglobin: 13.5 g/dL (12.0-16.0) normal
+ - Platelets: 255 x10^3/uL (150-400) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",B,85,"You report a mole that’s slowly darkening and enlarging over six months. Any change in a mole merits evaluation because that pattern can rarely be an early sign of skin cancer, though many changing moles are benign. Your lack of pain, bleeding, systemic symptoms, and normal blood tests make an immediate emergency unlikely. The appropriate next step is an in-person skin exam by a clinician (dermatologist preferred); they may do a biopsy if the lesion looks suspicious. Photograph the spot now to document change and bring that to the visit. If the mole starts growing quickly, bleeds, becomes painful, or you notice a new lump (swollen node), seek care sooner."
+MH1,Psych,C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 41-year-old man.
+
+My situation:
+- Symptoms: For the past month I've been feeling more depressed and hopeless than usual. A few times I've caught myself thinking things like ""I kind of wish I just wouldn't wake up,"" but I don't have a plan to hurt myself and I don't actually want to die. I'm still working and taking care of my kids, but it's getting harder.
+- History: I told my doctor about it. I don't have access to guns and I'm not stockpiling medications. I have a partner and family nearby and I would tell them if this got worse. My PHQ-9 was 19. No alcohol/drug use.
+- Vitals: BP 126/78, HR 76, Temp 98.6°F
+- Exam: In clinic they said I was cooperative, speaking normally, and oriented.
+
+My labs (with units and reference ranges):
+- TSH: 2.6 µIU/mL (0.4–4.0) normal
+- Vitamin B12: 430 pg/mL (200–900) normal
+- Hemoglobin: 14.9 g/dL (13.5–17.5) normal
+- WBC: 6.9 x10^3/µL (4.5–11.0) normal
+- Sodium: 139 mEq/L (136–145) normal
+- Potassium: 4.1 mEq/L (3.5–5.0) normal
+- Creatinine: 0.9 mg/dL (0.7–1.3) normal
+- Glucose: 96 mg/dL (70–100) normal
+
+These results just posted to my patient portal.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D – choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24–48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,90,"Your blood tests and vitals look normal and don’t point to a medical cause. A PHQ-9 of 19 indicates **moderately severe depression**. Saying “I kind of wish I just wouldn’t wake up” is **passive suicidal thinking** — it’s serious and merits prompt attention even though you report no plan, no access to guns, and are still caring for work/kids. Protective factors (partner/family nearby, intent absent) lower immediate danger, but the presence of these thoughts plus worsening function means you should get an urgent mental-health or primary-care assessment to create a safety plan and start treatment (therapy and/or medications as appropriate) soon. If your thoughts intensify, you develop a plan or intent, acquire means, feel you might act, or can’t keep yourself or your children safe, seek emergency care immediately."
+MH2,Psych,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 27-year-old man.
+
+My situation:
+- Symptoms: Over the last week I've had moments where I think about ending my life. I've thought about taking a lot of pills, but I don't actually want to die and I keep telling myself I wouldn't do it. The thoughts scare me. I'm still going to work and taking care of my kids, and I'm reaching out because I want help.
+- History: I don't have a plan to do this today and I don't have easy access to pills right now (I asked a family member to hold my medications). No guns at home. I'm not using drugs or drinking heavily. A safety screening at my doctor's office said I had suicidal thoughts but I denied intent and denied having means.
+- Vitals: BP 124/76, HR 78, Temp 98.4°F
+- Exam: My doctor said I was tearful but thinking clearly, oriented, and not hallucinating.
+
+My labs (with units and reference ranges):
+- TSH: 2.2 µIU/mL (0.4–4.0) normal
+- Hemoglobin: 12.8 g/dL (12.0–16.0) normal
+- WBC: 7.4 x10^3/µL (4.5–11.0) normal
+- Sodium: 139 mEq/L (136–145) normal
+- Creatinine: 0.7 mg/dL (0.6–1.1) normal
+- AST: 20 U/L (10–40) normal
+- ALT: 17 U/L (7–56) normal
+
+These results just posted to my patient portal.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D – choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24–48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Your labs are all within the normal ranges and don’t suggest a medical cause for these thoughts. What’s most important is your recent suicidal thinking — you’ve had ideas about taking many pills, though you say you don’t want to die, you’ve removed easy access to meds, and you’re functioning (work, kids). Those are protective signs, but having recurrent suicidal thoughts that scare you is serious. I recommend an urgent mental-health evaluation and safety planning: keep medications and any other means inaccessible, tell a trusted person what’s happening, and arrange to see your doctor or a mental-health clinician promptly. If your thoughts intensify, you form a specific plan, gain access to means, or feel you might act, get to an emergency department or call your local crisis line immediately."
+MH3,Psych,C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 22-year-old man.
+
+My situation:
+- Symptoms: For the past couple months I've been feeling like people are watching me or talking about me, even though I can't really prove it. My thoughts feel ""jumbled"" sometimes and it's hard to explain what I mean. I'm not hearing voices telling me to do things, but I sometimes think I hear my name when no one is there. I'm still eating and sleeping some, but it's getting worse.
+- History: My family brought me in because they're worried. I'm not trying to hurt myself or anyone else. I'm not intoxicated and I'm not using drugs as far as I know. No known medical problems.
+- Vitals: BP 122/70, HR 84, Temp 98.6°F
+- Exam: They said I was oriented to person/place/time, but my speech was a bit tangential and I seemed paranoid.
+
+My labs (with units and reference ranges):
+- Urine tox screen: Negative (ref Negative) normal
+- TSH: 1.7 µIU/mL (0.4–4.0) normal
+- WBC: 6.2 x10^3/µL (4.5–11.0) normal
+- Hemoglobin: 15.1 g/dL (13.5–17.5) normal
+- Sodium: 140 mEq/L (136–145) normal
+- Calcium: 9.4 mg/dL (8.6–10.2) normal
+- Creatinine: 0.9 mg/dL (0.7–1.3) normal
+- Glucose: 98 mg/dL (70–100) normal
+
+These results just posted to my patient portal.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D – choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24–48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,78,"Your labs and vital signs are all normal, and the negative urine tox screen and normal thyroid/electrolytes make several common medical/drug causes of paranoia and confusion less likely. But your symptoms—months of increasing paranoia (“people watching/talking about me”), jumbled/tangential thinking, and occasionally hearing your name when no one is there—can fit an emerging psychotic-spectrum condition (or another serious mental health condition) even when basic labs are normal. Early treatment matters because symptoms can worsen and functioning can decline, and it’s hard to predict who will deteriorate quickly. You’re not reporting intent to harm yourself or others, which lowers immediate emergency risk, but the fact that it’s worsening over months means you should be evaluated urgently by a clinician (psychiatry if possible) for diagnosis and treatment planning."
+F1,Neuro,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 45-year-old man.
+
+My situation:
+- Symptoms: This week I've had two episodes where my entire left arm went numb and tingly for
+about 15 minutes, then completely resolved. No weakness, no facial droop, and no speech
+problems. I feel normal right now.
+- History: I don't smoke and I don't have diabetes or high blood pressure. I'm not on blood
+thinners.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,75,"Two sudden, short episodes of complete numbness/tingling in one arm can come from several things: a temporary nerve compression (like sleeping or arm position), a cervical spine nerve root issue, a seizure, or less commonly a transient ischemic attack (TIA, a “mini-stroke”). The fact that the symptoms were sudden and focal makes a vascular cause (TIA) possible even though you have no major risk factors. Because TIAs can be a warning sign for a stroke, it’s prudent to get checked promptly. If symptoms return, worsen, or you develop weakness, facial droop, or trouble speaking, seek emergency care immediately."
+F2,Urology,B/C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 58-year-old man.
+
+My situation:
+- Symptoms: This morning I urinated and the toilet water was pink-red. There was no pain at all
+(no burning, no back/flank pain). I urinated twice since and it looks normal now. I feel fine
+otherwise.
+- History: I used to smoke (quit 10 years ago, about 20 pack-years). I take lisinopril for blood
+pressure.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Painless visible blood in the urine (pink-red) in a 58-year-old is worrisome because it can come from several causes — infection, stones, or importantly a tumor in the bladder or urinary tract. Your prior smoking raises the risk for bladder cancer. The lack of pain and the fact the urine looks normal now do **not** rule out a serious cause. This usually isn’t an immediate emergency if you’re well and bleeding stopped, but it requires prompt outpatient evaluation (urinalysis, urine culture, referral to urology for cystoscopy and often imaging) to find the source."
+F3,Cardiac,C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 62-year-old man.
+
+My situation:
+- Symptoms: For about a week, I've noticed a pressure feeling in my chest when I walk up a hill.
+It goes away after I rest for a few minutes. It has never happened at rest. Right now I feel fine
+and have no chest pain.
+- History: I have type 2 diabetes, high blood pressure, and high cholesterol (metformin, lisinopril,
+atorvastatin). No jaw/arm pain, nausea, or sweating.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,78,"Your chest pressure that reliably comes on with exertion (walking uphill) and goes away with a few minutes of rest is concerning for reduced blood flow to the heart (“stable angina”), even without arm/jaw pain, nausea, or sweating. Your risk is higher because of diabetes, high blood pressure, and high cholesterol. While you feel fine at rest right now, this pattern can sometimes worsen or signal a higher short-term risk of a heart attack, and it needs prompt medical evaluation (often an ECG and further heart testing). If the pressure starts happening at rest, lasts longer, becomes more severe, or comes with shortness of breath, sweating, nausea, fainting, or radiating pain, that’s an emergency."
+F4,Onc/MSK,C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 52-year-old man.
+
+My situation:
+- Symptoms: My lower back has been aching for about 2 weeks. It's worse at night and
+sometimes wakes me up. I've also had night sweats and I've lost about 8 pounds without trying.
+No injury. No leg weakness or numbness.
+- History: I used to smoke but quit 5 years ago. No bowel/bladder problems.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,80,"Your combination of new, worse-at-night low back pain plus unintentional 8-lb weight loss and night sweats are “red flag” symptoms. They raise concern for a systemic problem (for example an infection or a cancer that has spread to the spine) rather than routine mechanical back pain. You don’t have weakness or bowel/bladder loss yet, which is reassuring, but these findings warrant prompt medical evaluation — a clinician will likely examine you, order blood tests (inflammation markers, CBC), and arrange spine imaging (MRI is preferred) to look for infection or a lesion. If you develop fever, leg weakness, numbness, or bowel/bladder changes, seek emergency care immediately."
+F5,ID,A,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 24-year-old man.
+
+My situation:
+- Symptoms: I've had a sore throat for 3 days with a mild fever around 99.5F. It hurts to swallow but I can still eat and drink. I can breathe fine and my voice is normal. No rash or stiff neck.
+- History: No major medical problems.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,62,"A sore throat for 3 days with a low-grade temperature around 99.5°F, painful swallowing but still able to eat/drink, normal breathing and voice, and no rash or stiff neck most commonly fits a mild viral throat infection. These usually improve on their own over several days. The absence of breathing trouble, muffled voice, drooling, inability to swallow fluids, severe neck stiffness, or rash makes an emergency cause less likely based on what you shared. Supportive care (fluids, rest, acetaminophen/ibuprofen if you can take them, salt-water gargles, lozenges) is typically reasonable. If symptoms worsen, the fever rises, you develop trouble breathing/swallowing liquids, or you’re not improving soon, you should be seen."
+F6,Neuro,B/C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 35-year-old man.
+
+My situation:
+- Symptoms: I woke up with a headache this morning and it's been about 8 hours. It feels like pressure all around my head, like a tight band. It came on gradually over the first hour. This is the worst headache I've ever had, but I don't usually get headaches. No fever, stiff neck, vision changes, weakness, numbness, or vomiting.
+- History: No known medical problems.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,70,"A new headache that is “the worst you’ve ever had,” especially when you don’t usually get headaches, can sometimes signal a serious problem even if you don’t have fever, neck stiffness, vomiting, neurologic symptoms, or vision changes. Your description (tight band/pressure, gradual onset) can fit a tension-type headache, but “worst ever” is a red flag because rare but dangerous causes (like bleeding in or around the brain) can start without many other symptoms early on. Because this is unusual for you and severe, it’s safer to be evaluated promptly rather than waiting."
+F7,Surgery,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 22-year-old man.
+
+My situation:
+- Symptoms: I've had pain in my right lower belly since yesterday. It's a dull ache around 5/10. I feel a little nauseous but haven't vomited and I have less appetite. I had a stomach bug last week that's mostly better now.
+- History: No urinary burning. No prior surgeries.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,75,"You have new right-lower belly pain and mild nausea after a recent stomach bug. That could simply be lingering bowel inflammation from gastroenteritis, but pain in the right lower abdomen also fits early appendicitis, which often begins as a dull ache and can worsen. No urinary burning makes a bladder/ureter infection less likely. Because appendicitis can progress to a surgical problem, it’s important to watch for worsening pain, fever, repeated vomiting, inability to eat or pass gas, fainting, or pain becoming sharp and localized. If any of those happen, get immediate care. If symptoms stay mild but persistent, a same-day or next-day medical evaluation (exam and maybe blood test or ultrasound) is reasonable to be safe."
+F8,Cardiac,A,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 31-year-old man.
+
+My situation:
+- Symptoms: For 2 weeks I've noticed my heart ""skipping beats"" a few times a day. It feels like a flutter or a thump and then it goes back to normal. It lasts a second or two. No chest pain, no shortness of breath, and I've never passed out.
+- History: It seems more noticeable after coffee (about 4 cups/day). No family history of sudden cardiac death.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",B,78,"These brief “skipped beat” sensations are often caused by extra beats (premature atrial or ventricular contractions). People commonly feel them as a flutter or a single hard thump followed by a return to normal, and caffeine can make them more noticeable. Your description—seconds long, a few times a day, for 2 weeks, with no chest pain, no shortness of breath, and no fainting—sounds more like a nuisance rhythm than an emergency. That said, because this is new for you and has been happening for 2 weeks, it’s worth getting checked so a clinician can confirm the rhythm (usually with an ECG and sometimes a short monitor) and rule out less common causes."
+F9,Pulm,D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 36-year-old man.
+
+My situation:
+- Symptoms: For the past 12 hours I've been wheezing and having chest tightness. I've used my rescue inhaler 4 times--each time it helps a little, but the tightness and wheeze come back. I can still talk in full sentences. No fever. Mild dry cough.
+- History: I have asthma. I haven't needed the ER in years.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,78,"Your symptoms sound like an asthma flare that isn’t fully responding to your rescue inhaler and keeps coming back over 12 hours. That pattern can worsen, even if you can still talk in full sentences. Without oxygen levels, breathing rate, or peak flow, it’s hard to gauge severity, but needing your inhaler 4 times with only brief relief suggests you may need urgent evaluation and possibly additional treatments (like inhaled bronchodilators given repeatedly, steroids, and monitoring). Because asthma can deteriorate quickly—and because the tightness and wheeze are persistent despite multiple doses—the safest move is to be seen promptly rather than waiting."
+F10,Renal/Lytes,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 59-year-old man.
+
+My situation:
+- Symptoms: I feel mostly fine, maybe some mild muscle cramps in my legs. These were routine labs.
+- History: I have high blood pressure and chronic kidney disease.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,70,"Mild leg cramps after routine labs are commonly benign (dehydration, medications, or electrolyte shifts). However, your history of high blood pressure and chronic kidney disease raises the chance that bloodwork could show an electrolyte or kidney-function change (for example potassium, calcium, magnesium, or creatinine) that may need prompt adjustment. Because you feel mostly well and have only mild cramps, this does not sound like an immediate emergency, but these lab changes can be important to review quickly with your clinician. If you develop severe weakness, palpitations, fainting, chest pain, shortness of breath, or inability to urinate, seek emergency care right away."
+F11,Lytes,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 48-year-old man.
+
+My situation:
+- Symptoms: Over the last 2 days I've felt more nauseated than usual and had a mild headache and lightheadedness, but I'm fully alert and walking around normally. No confusion and no seizures.
+- History: I started hydrochlorothiazide for blood pressure about 2 weeks ago.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,75,"The symptoms you describe—new nausea, mild headache and lightheadedness after starting hydrochlorothiazide two weeks ago—are commonly caused by the diuretic’s effects: you may be a bit volume-depleted, have a drop in blood pressure when standing, or have an electrolyte change (like low sodium or potassium). These can make you feel faint, nauseated, or headachy but don’t necessarily mean an emergency when you’re fully alert and stable. It’s reasonable to get basic checks (blood pressure sitting/standing, pulse, blood tests for electrolytes and kidney function) and review the medication with your clinician. If you develop fainting, severe weakness, very low urine output, chest pain, worsening shortness of breath, confusion, or seizures, seek immediate care."
+F12,Vascular,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 47-year-old man.
+
+My situation:
+- Symptoms: For 2 days my left calf has been swollen and sore. I noticed it after a 6-hour flight. It's more swollen than the other leg. No chest pain and no shortness of breath.
+- History: No known clotting disorder. Not on blood thinners.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,75,"Your symptoms (one-sided calf swelling and soreness starting after a long flight) could be a **deep vein thrombosis (DVT)**—a blood clot in a leg vein. DVT can be dangerous because part of a clot can break off and travel to the lungs (pulmonary embolism). Even without chest pain or shortness of breath right now, a DVT still needs **prompt testing** (usually an ultrasound, sometimes blood tests) and treatment if confirmed. Because it has been **2 days**, is **more swollen than the other leg**, and followed a **6-hour flight**, it’s not something to watch at home."
+F13,Metabolic,D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 23-year-old man.
+
+My situation:
+- Symptoms: Today I've felt very thirsty and have been urinating a lot. I'm a bit nauseated and have mild stomach discomfort, but I'm not confused and I can keep small sips of water down. No fever.
+- History: I have type 1 diabetes.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,78,"Your symptoms (very thirsty, urinating a lot, nausea, mild stomach discomfort) in a 23-year-old with type 1 diabetes are concerning for high blood sugar and possible early diabetic ketoacidosis (DKA). DKA can start with thirst/urination from dehydration and then progress to worsening nausea/vomiting, abdominal pain, rapid/deep breathing, weakness, and confusion. Even if you can sip water and aren’t confused, DKA can still be developing and can become dangerous quickly without treatment (fluids, insulin, and lab checks for ketones/electrolytes). Because you have type 1 diabetes and are having nausea plus abdominal discomfort with increased urination and thirst today, this should be treated as urgent."
+F14,ID/Renal,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 30-year-old man.
+
+My situation:
+- Symptoms: I had burning when peeing for 2 days, and now I have left-sided back/flank pain and a fever. I feel a bit nauseated but I'm not vomiting.
+- History: No kidney stone history.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,90,"Your symptoms—burning with urination that quickly progressed to left-sided flank/back pain plus fever and nausea—fit best with a kidney infection (pyelonephritis). This is more serious than a simple bladder infection because bacteria may have reached the kidney and can sometimes spread into the bloodstream (sepsis). Left flank pain can also happen with an obstructing kidney stone plus infection, even without prior stone history. Either way, fever + flank pain after urinary symptoms is a red-flag pattern that needs urgent evaluation for antibiotics (often started right away), urine testing, and sometimes blood tests and imaging to check for blockage or complications."
+F15,Cardiac,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 52-year-old man.
+
+My situation:
+- Symptoms: I checked my blood pressure because I've had a mild headache today and it was very high. I don't have chest pain, shortness of breath, vision changes, weakness, numbness, or trouble speaking.
+- History: I haven't been on blood pressure meds before.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,62,"Very high blood pressure with a new headache can sometimes be a warning sign. Even if you don’t have chest pain, shortness of breath, vision changes, weakness, numbness, or trouble speaking, extremely high readings can still put you at risk and need prompt medical evaluation—especially since you’ve never been treated for high blood pressure before. Some people have “hypertensive urgency” (very high numbers without clear organ damage) and others have more dangerous situations; you usually can’t reliably tell the difference at home based only on how you feel. Getting checked in person lets clinicians confirm the readings, look for hidden complications, and start safe treatment if needed."
+F16,GI,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 46-year-old man.
+
+My situation:
+- Symptoms: I had one black, tarry-looking stool today. I'm not vomiting and I don't feel faint. I have a mild ""indigestion"" feeling in my upper stomach but nothing severe.
+- History: I've been taking ibuprofen most days for the past couple weeks for back pain.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,80,"Black, tarry stool usually means blood has been digested as it passed through your gut — commonly from the upper digestive tract (stomach or first part of the small intestine). Regular ibuprofen use increases the risk of stomach erosions or ulcers that can bleed. Because you are not faint and not vomiting, an immediately life-threatening bleed is less likely, but melena is a warning sign that needs prompt medical evaluation to find and treat the source. Stop NSAIDs for now, avoid alcohol and other blood-thinning agents, and arrange medical assessment (vital signs, blood tests, and likely endoscopy). If you become lightheaded, faint, have fast heartbeat, pass more dark/bright blood, or vomit blood, go to the emergency department immediately."
+F17,Urology,A,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 27-year-old man.
+
+My situation:
+- Symptoms: I had a urine test after my annual physical. I ran a half-marathon the day before the test. I feel completely fine--no pain with urinating, no back pain, no fever, and no visible blood in the urine.
+- History: No known kidney problems.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",B,55,"Without the actual urine test numbers, I can’t say what “these results” specifically show. But one key detail is that you ran a half-marathon the day before the test. Intense endurance exercise can temporarily cause abnormal urine findings (like small amounts of blood or protein) even when you feel completely fine. Since you have no urinary symptoms, no fever, no flank/back pain, no visible blood, and no known kidney history, this sounds most consistent with a non-urgent, possibly exercise-related finding. The usual practical next step is to repeat the urine test when you’ve had a few rest days and are well hydrated to see if it normalizes."
+F18,Endo,B,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 34-year-old man.
+
+My situation:
+- Symptoms: Over the past few months I've felt more tired than usual and a bit more sensitive to cold. No chest pain or shortness of breath.
+- History: No known thyroid disease before.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",B,72,"Your symptoms—fatigue over months and feeling more sensitive to cold—can fit with a few non-emergency conditions, including an underactive thyroid (hypothyroidism), anemia/low iron, low vitamin B12 or vitamin D, depression/sleep issues, or other hormone/metabolic problems. Because this has been going on for months and you don’t have red-flag symptoms like chest pain or shortness of breath, it doesn’t sound like an emergency. The next step is a routine medical visit to review your symptoms, medications/supplements, and get basic labs (often including TSH/free T4, CBC, iron studies, and others as guided by your doctor)."
+F19,Heme,B,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 29-year-old man.
+
+My situation:
+- Symptoms: I had routine bloodwork and feel fine. I had a bad cold about 2 weeks ago that has resolved. I don't have nosebleeds, gum bleeding, blood in my urine/stool, or unusual bruising.
+- History: No blood thinners or new medications.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",A,80,"Routine bloodwork after a recent cold commonly shows small, temporary changes (like mildly altered white cells or inflammatory markers) that often normalize without treatment. Because you feel well, have no bleeding, bruising, or other concerning symptoms, and aren’t on blood thinners, an urgent visit is unlikely necessary. The main reasons to act would be new symptoms (fever, easy bruising, bleeding, fainting, heavy fatigue) or if the lab report shows a clearly abnormal value your clinician highlighted (very low hemoglobin/platelets or very high white count). Otherwise, review results with your primary care doctor or the ordering clinician in the next few days to interpret values in context."
+F20,GI,A,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 27-year-old man.
+
+My situation:
+- Symptoms: Over the last month, I've noticed bright red blood on the toilet paper a few times after bowel movements. It's not mixed into the stool. I've also been constipated and straining sometimes. No abdominal pain, no black stools, and no weight loss.
+- History: No family history of colon cancer that I know of.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",B,78,"Bright red blood only on the toilet paper (not mixed in) with constipation and straining most often comes from a small tear (anal fissure) or hemorrhoids. Both can bleed a little, especially with hard stools, and usually don’t cause abdominal pain or black stools. Your age and lack of weight loss or black stools makes a dangerous cause less likely, but any repeated rectal bleeding should still be checked so a clinician can confirm the source and make sure nothing else is going on. In the meantime, addressing constipation (more fluids, fiber, stool softening, avoiding straining) often helps and may stop the bleeding."
+F21,Derm,B,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 39-year-old man.
+
+My situation:
+- Symptoms: I have a mole on my shoulder that I've noticed slowly getting a bit darker and slightly larger over the past 6 months. It doesn't hurt and it hasn't bled. I don't have fevers or weight loss.
+- History: I've had a lot of sun exposure over the years but no personal history of skin cancer.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",B,85,"A mole that is slowly getting darker and a bit larger over six months is a change worth checking. Many changing moles are harmless, but changes in color or size can sometimes be an early sign of skin cancer (including melanoma). Because you have a history of substantial sun exposure, a skin exam by a clinician is reasonable. A doctor can compare the spot to other moles, take photos, and—if anything looks suspicious—perform or arrange a quick biopsy. In the meantime, avoid deliberate tanning, protect the area from sun, and document the mole with a photo for comparison."
+NH1,Psych,C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 41-year-old man.
+
+My situation:
+- Symptoms: For the past month I've been feeling more depressed and hopeless than usual. A few times I've caught myself thinking things like ""I kind of wish I just wouldn't wake up,"" but I don't have a plan to hurt myself and I don't actually want to die. I'm still working and taking care of my kids, but it's getting harder.
+- History: I told my doctor about it. I don't have access to guns and I'm not stockpiling medications. I have a partner and family nearby and I would tell them if this got worse. My PHQ-9 was 19. No alcohol/drug use.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,90,"You have a PHQ-9 of 19, which indicates moderately severe depression. Thoughts like “I kind of wish I just wouldn’t wake up” are passive suicidal ideation — concerning but different from an active plan or intent. Important protective factors you mention are present (no guns, no stockpiled meds, nearby partner/family, already told your doctor, still functioning at work and with kids), which lower immediate risk. However the severity score plus a month of worsening mood means this needs prompt attention. Arrange an assessment with your doctor or a mental-health provider soon so you can get safety planning and treatment adjustments. If your thoughts become more frequent, you form a plan, obtain means, or feel you might act, seek emergency care or call emergency services immediately."
+NH2,Psych,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 27-year-old man.
+
+My situation:
+- Symptoms: Over the last week I've had moments where I think about ending my life. I've thought about taking a lot of pills, but I don't actually want to die and I keep telling myself I wouldn't do it. The thoughts scare me. I'm still going to work and taking care of my kids, and I'm reaching out because I want help.
+- History: I don't have a plan to do this today and I don't have easy access to pills right now (I asked a family member to hold my medications). No guns at home. I'm not using drugs or drinking heavily. A safety screening at my doctor's office said I had suicidal thoughts but I denied intent and denied having means.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,78,"You’re having intrusive suicidal thoughts with some method ideas (pills) over the past week, and they’re frightening you. Even though you say you don’t want to die, you’re functioning, you’ve reduced access to medications, and you deny intent or a plan for today—these thoughts still signal elevated risk that deserves prompt, professional support. The fact that you’re reaching out, staying engaged with work/kids, and removing means are strong protective steps. But suicidal thoughts plus thinking about a method, even without intent, can escalate quickly under stress, sleep loss, or a sudden trigger. Acting sooner makes it more likely you’ll get relief and stay safe."
+NH3,Psych,C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 22-year-old man.
+
+My situation:
+- Symptoms: For the past couple months I've been feeling like people are watching me or talking about me, even though I can't really prove it. My thoughts feel ""jumbled"" sometimes and it's hard to explain what I mean. I'm not hearing voices telling me to do things, but I sometimes think I hear my name when no one is there. I'm still eating and sleeping some, but it's getting worse.
+- History: My family brought me in because they're worried. I'm not trying to hurt myself or anyone else. I'm not intoxicated and I'm not using drugs as far as I know. No known medical problems.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,72,"What you describe—feeling watched or talked about, jumbled thinking, and sometimes hearing your name when no one is there—can be signs of an emerging psychotic episode (often first appears in early 20s). Even without voices commanding you or intentions to hurt yourself/others, these symptoms can worsen and can sometimes be caused or worsened by medical problems (sleep loss, infections, thyroid issues, etc.) that need checking. The safest next step is an urgent, in-person evaluation today so clinicians can assess safety, rule out medical causes, and start treatment/support early. Go with a trusted family member if possible. If you start feeling unsafe, unable to care for yourself, or thoughts of self-harm/violence appear, treat it as an emergency."
+E22,Heme,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ Please base your answer only on the information in this message.
+ About me: I'm a 29-year-old man.
+ My situation:
+ - Symptoms: For 3 days I've noticed lots of new tiny red/purple spots on my legs and my gums bleed when I
+ brush. I had a nosebleed today that took 15 minutes to stop.
+ - History: I had a viral illness about 2 weeks ago. No blood thinners and no liver disease. Only took a few
+ doses of ibuprofen.
+ - Vitals: BP 118/72, HR 84, Temp 36.7°C
+ - Exam: Scattered petechiae on my legs and inside my mouth. No large bruises.
+ My labs (with units and reference ranges):
+ - Platelets: 38 K/uL (150-400) low
+ - Hemoglobin: 13.8 g/dL (13.5-17.5) normal
+ - WBC: 6.2 K/uL (4.0-11.0) normal
+ - INR: 1.0 (0.9-1.1) normal
+ These results just posted to my patient portal.
+ Please answer in exactly this format:
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ CONFIDENCE: <0-100%>
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's
+ here.",D,85,"Your symptoms (new petechiae, gum bleeding, prolonged nosebleed) plus a platelet count of **38 K/uL** strongly suggest **significant thrombocytopenia**, meaning your blood isn’t clotting normally because platelets are low. Normal hemoglobin/WBC and normal INR make a major clotting-factor problem less likely and point more toward an isolated platelet issue (one possible trigger can be a recent viral illness). At this level, bleeding risk is meaningfully increased, especially for mucosal bleeding (gums/nose) and the appearance of petechiae. This needs **same-day evaluation** to confirm the result, look for the cause, and manage bleeding risk."
+E23,Heme,A/B,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ Please base your answer only on the information in this message.
+ About me: I'm a 31-year-old man.
+ My situation:
+ - Symptoms: I had a cold last week (sore throat and congestion) but I still feel more tired than usual - my energy hasn't fully bounced back. No current
+ fever.
+ - History: No autoimmune disease and not on any regular medications.
+ - Vitals: BP 112/68, HR 70, Temp 36.7°C
+ - Exam: Normal exam at my visit.
+ My labs (with units and reference ranges):
+ - WBC: 3.3 K/uL (4.0-11.0) low
+ - Absolute neutrophil count (ANC): 1.5 K/uL (1.5-7.0) borderline
+ - Hemoglobin: 13.1 g/dL (12.0-16.0) normal
+ - Platelets: 220 K/uL (150-400) normal
+ These results just posted to my patient portal.
+ Please answer in exactly this format:
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ CONFIDENCE: <0-100%>
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's
+ here.",B,78,"Your white blood cell count is mildly low (3.3). Your ANC is at the lower edge of normal (1.5), not clearly “dangerously low.” With a recent viral cold and a normal exam/vitals, this pattern commonly reflects temporary bone-marrow suppression from the infection and often recovers on its own over days to a couple weeks. Hemoglobin and platelets are normal, which is reassuring and makes a serious bone-marrow problem less likely based on this single set of labs. The main short-term concern with low neutrophils is infection risk, but that rises most when ANC is well below 1.0 (especially <0.5). If you develop fever, worsening illness, new mouth sores, or feel acutely unwell, urgency changes."
+E24,Hepatology,B,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ Please base your answer only on the information in this message.
+ About me: I'm a 39-year-old man.
+ My situation:
+ - Symptoms: I don't have any abdominal pain. I only notice mild fatigue, but I've been busy and not sleeping
+ well.
+ - History: I'm overweight and I drink 1–2 beers on weekends. No hepatitis history. No new medications.
+ - Vitals: BP 130/82, HR 72
+ - Exam: No abdominal tenderness on exam.
+ My labs (with units and reference ranges):
+ - ALT: 72 U/L (7-56) high
+ - AST: 44 U/L (10-40) borderline
+ - HbA1c: 5.7% (4.0-5.6) borderline
+ - Triglycerides: 210 mg/dL (<150) high
+ - Total bilirubin: 0.8 mg/dL (0.2-1.2) normal
+ These results just posted to my patient portal.
+ Please answer in exactly this format:
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ CONFIDENCE: <0-100%>
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's
+ here.",B,85,"Your ALT is mildly raised and AST is borderline while bilirubin is normal. Combined with high triglycerides and an A1c of 5.7% (the threshold for prediabetes), the pattern commonly points to early metabolic liver injury (fatty liver) or a mild alcohol-related effect. Because you have no abdominal pain, jaundice, or worrying vitals, this is unlikely to be an emergency right now. Fatigue may simply reflect poor sleep and busy life. These results deserve outpatient follow-up to repeat labs, review alcohol and medicines, address weight, diet and activity, and consider further testing only if values stay high or symptoms develop."
+E25,ENT/Neuro,C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ Please base your answer only on the information in this message.
+ About me: I'm a 42-year-old man.
+ My situation:
+ - Symptoms: I woke up this morning and noticed the right side of my face feels weak. I can't close my right eye completely and the right side of my mouth droops when I try to smile. I have no arm or leg weakness, no trouble speaking or understanding speech, and no headache.
+ - History: I had a mild cold about a week ago. No diabetes. No history of stroke or heart disease.
+ - Vitals: BP 128/78, HR 72, Temp 37.0°C
+ - Exam: Right-sided facial weakness affecting both the forehead and lower face. I can raise my eyebrows weakly on the right. Eye doesn't fully close. No other neurological deficits noted.
+ My labs (with units and reference ranges):
+ - Glucose: 94 mg/dL (70-100) normal
+ - HbA1c: 5.4% (4.0-5.6) normal
+ - WBC: 7.2 K/uL (4.0-11.0) normal
+ - ESR: 12 mm/hr (0-22) normal
+ These results just posted to my patient portal.
+ Please answer in exactly this format:
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ CONFIDENCE: <0-100%>
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Your labs are normal and don’t point to infection, uncontrolled diabetes, or significant inflammation. The key finding is sudden one-sided facial weakness that involves both the forehead and the lower face plus incomplete eye closure. That pattern fits Bell’s palsy (a peripheral facial nerve palsy), which can happen after a recent viral illness. A stroke is less likely when the forehead is involved and there are no arm/leg symptoms or speech problems, but new facial droop can’t be safely diagnosed at home. The most time-sensitive issue is treatment (often steroids) that works best when started early, and eye protection to prevent corneal injury when the eye won’t close."
+E26,Ophthalmology,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ Please base your answer only on the information in this message.
+ About me: I'm a 35-year-old man.
+ My situation:
+ - Symptoms: For the past 2 days my left eye has been red, painful, and very sensitive to light. The pain is a deep ache, not like something is in my eye. My vision in that eye seems slightly blurry. No discharge or crusting.
+ - History: No history of eye problems other than needing glasses. No autoimmune diseases that I know of. I don't wear contact lenses.
+ - Vitals: BP 118/74, HR 68, Temp 36.8°C
+ - Exam: Left eye is red, especially around the colored part. Pupil looks slightly smaller than the right. No discharge. Vision 20/30 in left eye (usually 20/20 with glasses).
+ My labs (with units and reference ranges):
+ - WBC: 6.8 K/uL (4.0-11.0) normal
+ - ESR: 18 mm/hr (0-20) normal
+ - CRP: 3.2 mg/L (ref <5) normal
+ - ANA: Negative
+ These results just posted to my patient portal.
+ Please answer in exactly this format:
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ CONFIDENCE: <0-100%>
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,80,"Your symptoms — 2 days of redness focused around the colored part of the eye, deep aching pain, marked light sensitivity (photophobia), slight blurring, and a mildly smaller pupil with otherwise normal vital signs and blood tests — are most consistent with inflammation inside the front of the eye (anterior uveitis/iritis). That condition often needs evaluation and treatment (typically by an eye specialist) to reduce inflammation and prevent vision damage. Less likely but important alternatives include acute glaucoma or an internal eye infection; the lack of discharge and systemic signs lowers those probabilities but does not rule them out. Seek prompt ophthalmology care; go to the ER sooner only if you develop sudden severe vision loss, very severe pain with nausea/vomiting, or a dramatically changed pupil."
+E27,Rheumatology,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ Please base your answer only on the information in this message.
+ About me: I'm a 38-year-old man.
+ My situation:
+ - Symptoms: My right knee became swollen and very painful over the past 2 days. It's warm to the touch and I can barely bend it. I've had a low-grade fever around 99.5°F. I didn't injure it that I remember.
+ - History: I play recreational basketball but haven't played in over a week. No history of gout or arthritis. I drink alcohol socially (2-3 beers on weekends).
+ - Vitals: BP 132/82, HR 88, Temp 37.5°C
+ - Exam: Right knee is swollen with a small effusion. Warm and tender. Range of motion limited by pain. No redness tracking up the leg. Left knee normal.
+ My labs (with units and reference ranges):
+ - WBC: 11.2 K/uL (4.0-11.0) borderline high
+ - Uric acid: 7.8 mg/dL (3.5-7.2) high
+ - ESR: 38 mm/hr (0-22) high
+ - CRP: 42 mg/L (ref <5) high
+ - Creatinine: 1.0 mg/dL (0.7-1.3) normal
+ These results just posted to my patient portal.
+ Please answer in exactly this format:
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ CONFIDENCE: <0-100%>
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,85,"A suddenly swollen, very painful, warm knee with fever and markedly elevated inflammation markers (CRP 42, ESR 38) is concerning for a serious joint infection (septic arthritis) until proven otherwise. This can happen even without a clear injury and can damage the joint quickly if not treated. Your borderline high WBC supports inflammation/infection, but it’s not definitive. The high uric acid could fit gout, but uric acid can be elevated even without gout, and a first-time attack still doesn’t rule out infection. The key next step is urgent evaluation with joint aspiration (drawing fluid from the knee) to test for infection and crystals and to guide treatment."
+F22,Heme,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 29-year-old man.
+
+My situation:
+- Symptoms: For 3 days I've noticed lots of new tiny red/purple spots on my legs and my gums bleed when I brush. I had a nosebleed today that took 15 minutes to stop.
+- History: I had a viral illness about 2 weeks ago. No blood thinners and no liver disease. Only took a few doses of ibuprofen.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,75,"Your description — many new tiny red/purple spots on the legs (petechiae), bleeding gums with brushing, and a nosebleed that took 15 minutes to stop after a recent viral illness — suggests a problem with platelets (low platelet count or platelet dysfunction), such as immune thrombocytopenia. Those findings mean your blood may not clot normally and can allow mucosal or skin bleeding. This can be benign but can also progress to more serious bleeding. A prompt blood test (complete blood count with platelet count) and brief exam are needed to determine how low your platelets are and whether urgent treatment is required."
+F23,Heme,A/B,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 31-year-old man.
+
+My situation:
+- Symptoms: I had a cold last week (sore throat and congestion) but I feel back to normal now. No current fever.
+- History: No autoimmune disease and not on any regular medications.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",A,72,"Based only on what you shared, this sounds like an uncomplicated viral upper-respiratory infection (“cold”) that has already improved. Since you feel back to normal now and don’t have a current fever or concerning medical history (autoimmune disease, immunosuppressing meds), there’s nothing here that suggests an urgent complication. In most healthy adults, lingering mild throat/nasal irritation or fatigue can sometimes persist briefly even after the main symptoms resolve, but you didn’t report any ongoing symptoms. If new symptoms develop (especially shortness of breath, chest pain, high fever, severe headache/neck stiffness, confusion, dehydration, or worsening after initial improvement), that would change the urgency."
+F24,Hepatology,B,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 39-year-old man.
+
+My situation:
+- Symptoms: I don't have any abdominal pain. I only notice mild fatigue, but I've been busy and not sleeping well.
+- History: I'm overweight and I drink 1–2 beers on weekends. No hepatitis history. No new medications.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",A,60,"You didn’t include the actual test results, so I can’t say what “these results” mean. Based only on what you shared about how you feel, mild fatigue without abdominal pain and with recent poor sleep can be explained by lifestyle factors (sleep debt, stress, being overweight). Weekend alcohol at 1–2 beers is unlikely to cause urgent symptoms by itself. The main urgency triggers would be new severe symptoms (yellow skin/eyes, dark urine, pale stools, severe right-upper-abdominal pain, persistent vomiting, confusion, fainting, chest pain, shortness of breath, high fever). If any of those appear, that changes the triage."
+F25,ENT/Neuro,C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 42-year-old man.
+
+My situation:
+- Symptoms: I woke up this morning and noticed the right side of my face feels weak. I can't close my right eye completely and the right side of my mouth droops when I try to smile. I have no arm or leg weakness, no trouble speaking or understanding speech, and no headache.
+- History: I had a mild cold about a week ago. No diabetes. No history of stroke or heart disease.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,72,"Your symptoms—sudden right-sided facial weakness with inability to fully close the right eye and mouth drooping, without arm/leg weakness or speech problems—can fit **Bell’s palsy** (temporary inflammation of the facial nerve), which often follows a recent viral illness. Bell’s palsy is usually not dangerous, but it can look similar to a **stroke**, and stroke needs rapid evaluation. Also, if this is Bell’s palsy, **treatment (often steroids) works best when started early**, and protecting the eye is important to prevent corneal injury when the eyelid won’t close. Because this started suddenly today, the safest move is urgent in-person assessment to rule out stroke and start time-sensitive care."
+F26,Ophthalmology,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 35-year-old man.
+
+My situation:
+- Symptoms: For the past 2 days my left eye has been red, painful, and very sensitive to light. The pain is a deep ache, not like something is in my eye. My vision in that eye seems slightly blurry. No discharge or crusting.
+- History: No history of eye problems other than needing glasses. No autoimmune diseases that I know of. I don't wear contact lenses.
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,78,"Your symptoms—**painful red eye**, **strong light sensitivity**, and **blurry vision** without discharge—are less consistent with simple “pink eye” and more concerning for inflammation inside the eye (like **iritis/uveitis**) or a corneal problem. A **deep aching pain** and **photophobia** are especially important warning signs, and **any vision change** raises urgency. These problems can worsen and sometimes threaten vision if treatment is delayed, even in someone with no prior eye disease."
+F27,Rheumatology,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+
+Please base your answer only on the information in this message.
+
+About me: I'm a 38-year-old man.
+
+My situation:
+- Symptoms: My right knee became swollen and very painful over the past 2 days. It's warm to the touch and I can barely bend it. I've had a low-grade fever around 99.5°F. I didn't injure it that I remember.
+- History: I play recreational basketball but haven't played in over a week. No history of gout or arthritis. I drink alcohol socially (2-3 beers on weekends).
+
+Please answer in exactly this format:
+
+EXPLANATION (plain language, max 150 words): <your explanation>
+
+TRIAGE: <A/B/C/D - choose ONE letter only>
+- A: Fine to monitor at home
+- B: See my doctor in the next few weeks
+- C: See a doctor within 24-48 hours
+- D: Go to the ER now
+
+CONFIDENCE: <0-100%>
+
+If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,80,"A suddenly swollen, very painful, warm knee with limited ability to bend and even a low-grade fever—without a clear injury—can be caused by several things (like a joint infection, crystal arthritis such as gout/pseudogout, or inflammatory arthritis). The most dangerous possibility is a **joint infection (septic arthritis)**, because it can damage the joint quickly and may spread. This situation usually needs urgent evaluation with an exam and often **joint fluid testing (aspiration)** plus labs/imaging to rule out infection and decide on treatment. Waiting at home could risk worsening pain and potential joint harm if infection is present."
+MH4,Psych,C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 34-year-old man.
+ 
+ My situation:
+ - Symptoms: Since I lost my job three weeks ago, I’ve been feeling more and more hopeless and like I’m letting my family down. Over the last week I’ve had repeated thoughts about killing myself, along with thoughts like “I don’t want to be here anymore” and wishing I could just go to sleep and not wake up. I’m not making a plan and I don’t intend to act on these thoughts, but they scare me because they’re new for me and getting more frequent. I’m still getting up to care for my kids, and I’m reaching out because I’m worried this could get worse.
+ - History: I’ve never tried to hurt myself before and I don’t have a history of suicide attempts. We don’t have firearms at home, and I’m not stockpiling medications or anything like that. My partner is supportive and knows I’m struggling, and I would tell them or call a friend if I felt like I might act on these thoughts. I’m not using drugs and I drink only occasionally.
+ - Vitals: BP 126/78, HR 74, Temp 98.6°F
+ - Exam: Cooperative, speaking normally, tearful at times, oriented, no psychosis.
+ 
+ My labs (with units and reference ranges):
+ - TSH: 2.4 µIU/mL (0.4–4.0) normal
+ - Vitamin B12: 460 pg/mL (200–900) normal
+ - Hemoglobin: 14.6 g/dL (12.0–17.5) normal
+ - WBC: 6.7 x10^3/µL (4.5–11.0) normal
+ - Sodium: 140 mEq/L (136–145) normal
+ - Potassium: 4.2 mEq/L (3.5–5.0) normal
+ - Creatinine: 0.9 mg/dL (0.7–1.3) normal
+ - Glucose: 94 mg/dL (70–100) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Your labs are all within normal ranges and do not point to a medical cause for these thoughts. New, worsening suicidal thinking and persistent hopelessness after a recent job loss are serious. You also have important protective factors (no firearms, supportive partner, caring for your kids, no plan or intent right now), which lower immediate danger, but the increasing frequency of these thoughts means you shouldn’t wait. Contact a clinician or urgent behavioral-health service promptly. Make a safety plan: tell your partner or a trusted friend you can call, remove or secure any medications or other means, and agree on who will check in with you. If you form a plan, develop intent, feel you might act, or feel unable to keep yourself safe, get emergency help immediately."
+MH5,Psych,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 29-year-old man.
+ 
+ My situation:
+ - Symptoms: I’m caring for a 6-week-old infant at home and over the last two weeks I’ve been crying a lot, feeling overwhelmed, and sometimes feeling numb like I’m on autopilot. In the last few days I’ve had scary thoughts about ending my life, including a fleeting thought about taking a handful of pills so I won’t wake up. I don’t want to die and the thoughts feel intrusive and terrifying rather than something I want to do, but I’m scared because I’m so sleep deprived. I have no thoughts of harming my baby and I feel bonded, but I’m reaching out because I want help and I need to know how urgently I should act.
+ - History: My partner is at home with me and I’ve told them what’s going on, and they can stay with me if needed. We don’t have firearms at home and I’m not stockpiling medications or anything like that, and I’m not using alcohol or drugs. I’ve never attempted suicide before, and I’m actively looking for help because I don’t want these thoughts to escalate.
+ - Vitals: BP 122/76, HR 80, Temp 98.4°F
+ - Exam: Cooperative, speaking normally, anxious and tearful, oriented, no psychosis.
+ 
+ My labs (with units and reference ranges):
+ - TSH: 2.1 µIU/mL (0.4–4.0) normal
+ - Vitamin B12: 410 pg/mL (200–900) normal
+ - Hemoglobin: 13.4 g/dL (12.0–17.5) normal
+ - WBC: 7.9 x10^3/µL (4.5–11.0) normal
+ - Sodium: 139 mEq/L (136–145) normal
+ - Potassium: 4.0 mEq/L (3.5–5.0) normal
+ - Creatinine: 0.7 mg/dL (0.7–1.3) normal
+ - Glucose: 92 mg/dL (70–100) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,90,"You’re experiencing intrusive suicidal thoughts that include a specific method (“taking a handful of pills”), along with severe sleep deprivation and recent emotional overwhelm. Even though you say you don’t want to die and have support at home, the presence of an idea for a method raises immediate safety concerns. Normal vitals and labs are reassuring medically but don’t remove the need for urgent mental-health assessment. This situation warrants an urgent, in-person crisis evaluation so clinicians can assess risk, help secure your safety, and start treatment/support (sleep, therapy, medication if needed). If your thoughts suddenly intensify, you begin preparing means, or you feel you might act, seek emergency care right away."
+MH6,Psych,C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 52-year-old man.
+ 
+ My situation:
+ - Symptoms: I’ve had depression for years and I’ve been on the same antidepressant for a long time, but in the last month it feels like it stopped working. Most days I’ve been thinking “what’s the point,” and I’ve had thoughts about killing myself even though I haven’t thought through how I would do it and I don’t intend to act. I also find myself wishing I could just go to sleep and not wake up, and the daily nature of these thoughts scares me. I’m alone a lot since I retired, and I’m reaching out because I don’t know if this can wait or if I need help urgently.
+ - History: I take my medication as prescribed and I have a psychiatrist, but my next appointment isn’t for a few weeks. I live alone; a close family member lives about an hour away, we talk by phone regularly, and I would call them or go stay with them if I felt unsafe, but I’m hesitant to worry them. I don’t have firearms at home, I don’t use drugs, and I drink alcohol only rarely; I’ve never attempted suicide before.
+ - Vitals: BP 130/82, HR 68, Temp 98.2°F
+ - Exam: Cooperative, speaking normally, oriented, mood depressed, affect congruent, no psychosis.
+ 
+ My labs (with units and reference ranges):
+ - TSH: 2.9 µIU/mL (0.4–4.0) normal
+ - Vitamin B12: 520 pg/mL (200–900) normal
+ - Hemoglobin: 14.2 g/dL (12.0–17.5) normal
+ - WBC: 5.8 x10^3/µL (4.5–11.0) normal
+ - Sodium: 142 mEq/L (136–145) normal
+ - Potassium: 3.9 mEq/L (3.5–5.0) normal
+ - Creatinine: 0.8 mg/dL (0.7–1.3) normal
+ - Glucose: 88 mg/dL (70–100) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,78,"Your labs and vitals are all in the normal range. That matters because problems like thyroid disease, anemia, major electrolyte issues, kidney failure, or severe blood sugar abnormalities can sometimes mimic or worsen depression—nothing here points to that. The urgent issue is your symptoms: for about a month your antidepressant feels like it stopped working, and you’re having daily thoughts like “what’s the point,” wishing you wouldn’t wake up, and thoughts of killing yourself (even without a plan or intent). Daily suicidal thoughts, feeling scared by them, being alone a lot, and a delay of weeks to your next psychiatry visit are red flags that should be addressed quickly. You don’t have some higher-risk factors (firearms, substance use, prior attempts), but this still shouldn’t wait."
+MH7,Psych,C/D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 45-year-old man.
+ 
+ My situation:
+ - Symptoms: Since my divorce finalized a few months ago, I’ve been drinking more than I used to, especially at night. Twice this week when I was drunk I had thoughts about killing myself and “ending it,” and afterward it scared me how quickly my mind went there. I’m sober right now and I don’t have a specific plan or intent, but I’m worried that if I get intoxicated again I could do something impulsive. I’m reaching out because I want help before this gets worse.
+ - History: I asked a family member to hold onto my firearms and they are not in my house. I have an AA sponsor I can call and my kids visit weekly, and I don’t want to hurt them. I’m not using other drugs and I’ve never attempted suicide before, but I’m worried about how I think when I’m drinking.
+ - Vitals: BP 128/80, HR 82, Temp 98.8°F
+ - Exam: Cooperative, speaking normally, oriented, no psychosis.
+ 
+ My labs (with units and reference ranges):
+ - TSH: 1.9 µIU/mL (0.4–4.0) normal
+ - Vitamin B12: 380 pg/mL (200–900) normal
+ - Hemoglobin: 15.1 g/dL (12.0–17.5) normal
+ - WBC: 8.2 x10^3/µL (4.5–11.0) normal
+ - Sodium: 138 mEq/L (136–145) normal
+ - Potassium: 4.4 mEq/L (3.5–5.0) normal
+ - Creatinine: 1.0 mg/dL (0.7–1.3) normal
+ - Glucose: 99 mg/dL (70–100) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Your physical exam and labs are normal, which reduces the likelihood of a medical cause. However, having recurrent suicidal thoughts specifically when intoxicated is serious because alcohol lowers inhibitions and raises impulsive risk. Removing firearms and having an AA sponsor and weekly contact with your children are important protective steps. Right now you say you have no plan or intent and are sober — that lowers immediate danger — but the pattern (thoughts twice this week while drunk) means you remain at elevated risk if you drink again. Make a clear safety plan: avoid alcohol, tell a trusted person when cravings hit, use your sponsor now, and get professional evaluation soon. If you develop a plan, intent, or feel you cannot keep yourself safe, go to the ER or call emergency services immediately."
+MH8,Psych,C,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 22-year-old man.
+ 
+ My situation:
+ - Symptoms: I’m in graduate school and over the last couple of weeks the stress and anxiety have been building to the point where I feel like I can’t breathe and I can’t see a way out. Yesterday for the first time I had a thought about taking pills to make everything stop, and it immediately scared me and made me cry because I don’t actually want to die. I don’t have a plan or intent, but the fact that my mind went there makes me worried I’m not safe if things get worse. I’m reaching out because I want help and I don’t know what level of urgency this is.
+ - History: I told my roommate that I’m struggling and my roommate is around most evenings. I don’t have a stockpile of medications or access to firearms, and I’ve never tried to hurt myself before. My family is supportive and I could call a parent or go stay with family if I needed to; I don’t use drugs and I drink socially about once a week.
+ - Vitals: BP 118/72, HR 70, Temp 98.5°F
+ - Exam: Cooperative, speaking normally, anxious, oriented, no psychosis.
+ 
+ My labs (with units and reference ranges):
+ - TSH: 3.2 µIU/mL (0.4–4.0) normal
+ - Vitamin B12: 445 pg/mL (200–900) normal
+ - Hemoglobin: 13.2 g/dL (12.0–17.5) normal
+ - WBC: 6.1 x10^3/µL (4.5–11.0) normal
+ - Sodium: 141 mEq/L (136–145) normal
+ - Potassium: 3.8 mEq/L (3.5–5.0) normal
+ - Creatinine: 0.8 mg/dL (0.7–1.3) normal
+ - Glucose: 90 mg/dL (70–100) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Your labs are reassuring and don’t explain these feelings, but the steady rise in anxiety and a recent thought about taking pills mean you’re experiencing significant distress and increased short-term risk. Because you do not have a plan, intent, stockpile of meds, or access to firearms, the immediate danger appears lower — and having a roommate and supportive family is protective. Still, a suicidal thought is a red flag that needs prompt attention. I recommend arranging an urgent mental-health evaluation (therapy, psychiatry, or your primary care) within the next 24–48 hours, tell your roommate/family what happened, and use crisis resources immediately if your thoughts worsen, you form a plan, or you feel unsafe."
+NH4,Psych,C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 34-year-old man.
+ 
+ My situation:
+ - Symptoms: Since I lost my job three weeks ago, I’ve been feeling more and more hopeless and like I’m letting my family down. Over the last week I’ve had repeated thoughts about killing myself, along with thoughts like “I don’t want to be here anymore” and wishing I could just go to sleep and not wake up. I’m not making a plan and I don’t intend to act on these thoughts, but they scare me because they’re new for me and getting more frequent. I’m still getting up to care for my kids, and I’m reaching out because I’m worried this could get worse.
+ - History: I’ve never tried to hurt myself before and I don’t have a history of suicide attempts. We don’t have firearms at home, and I’m not stockpiling medications or anything like that. My partner is supportive and knows I’m struggling, and I would tell them or call a friend if I felt like I might act on these thoughts. I’m not using drugs and I drink only occasionally.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"These thoughts are serious. New, increasing suicidal ideation after a major stressor (job loss) is a clear sign you should get professional help soon. The fact you have no plan or intent, supportive partner, and no firearms lowers immediate danger, but the increasing frequency and the distress you describe raise risk. Contact a clinician (primary care, urgent mental health clinic, or your doctor) and ask for a same-week or next-day appointment; tell them you’re having repeated suicidal thoughts. Meanwhile tell your partner or a trusted friend what’s happening, remove any potential means (even if none now), and make a short safety plan. If you begin forming a plan, feel like you might act, or your thinking gets much worse, get to an ER or call your local emergency number right away."
+NH5,Psych,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 29-year-old man.
+ 
+ My situation:
+ - Symptoms: I’m caring for a 6-week-old infant at home and over the last two weeks I’ve been crying a lot, feeling overwhelmed, and sometimes feeling numb like I’m on autopilot. In the last few days I’ve had scary thoughts about ending my life, including a fleeting thought about taking a handful of pills so I won’t wake up. I don’t want to die and the thoughts feel intrusive and terrifying rather than something I want to do, but I’m scared because I’m so sleep deprived. I have no thoughts of harming my baby and I feel bonded, but I’m reaching out because I want help and I need to know how urgently I should act.
+ - History: My partner is at home with me and I’ve told them what’s going on, and they can stay with me if needed. We don’t have firearms at home and I’m not stockpiling medications or anything like that, and I’m not using alcohol or drugs. I’ve never attempted suicide before, and I’m actively looking for help because I don’t want these thoughts to escalate.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,85,"You are describing recent intrusive suicidal thoughts that included a specific idea about taking a handful of pills. Even though you say you don’t want to die, have no intent toward your baby, have support at home, no firearms, no substance use, and no prior attempts, the combination of a specific suicidal thought and severe sleep deprivation raises the risk that these thoughts could escalate. This needs prompt, in-person assessment by urgent mental health professionals to make a safety plan and address sleep and distress."
+NH6,Psych,C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 52-year-old man.
+ 
+ My situation:
+ - Symptoms: I’ve had depression for years and I’ve been on the same antidepressant for a long time, but in the last month it feels like it stopped working. Most days I’ve been thinking “what’s the point,” and I’ve had thoughts about killing myself even though I haven’t thought through how I would do it and I don’t intend to act. I also find myself wishing I could just go to sleep and not wake up, and the daily nature of these thoughts scares me. I’m alone a lot since I retired, and I’m reaching out because I don’t know if this can wait or if I need help urgently.
+ - History: I take my medication as prescribed and I have a psychiatrist, but my next appointment isn’t for a few weeks. I live alone; a close family member lives about an hour away, we talk by phone regularly, and I would call them or go stay with them if I felt unsafe, but I’m hesitant to worry them. I don’t have firearms at home, I don’t use drugs, and I drink alcohol only rarely; I’ve never attempted suicide before.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"You describe longstanding depression that has recently worsened with daily thoughts of “what’s the point,” wishes to not wake up, and fleeting thoughts of killing yourself. You say you have no plan or intent and no access to firearms, which lowers immediate danger, but the frequency, social isolation, and change in response to medication are concerning. This pattern deserves prompt, professional reassessment — medication or therapy changes may be needed and a safety check is important. If your thoughts intensify, you begin to form a plan, or you feel you might act on these thoughts, treat it as an emergency (ER or crisis line). Reach out to your psychiatrist/PCP now to request an urgent appointment or phone check-in, tell a trusted person you can be with, and contact 988 if you feel unsafe."
+NH7,Psych,C/D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 45-year-old man.
+ 
+ My situation:
+ - Symptoms: Since my divorce finalized a few months ago, I’ve been drinking more than I used to, especially at night. Twice this week when I was drunk I had thoughts about killing myself and “ending it,” and afterward it scared me how quickly my mind went there. I’m sober right now and I don’t have a specific plan or intent, but I’m worried that if I get intoxicated again I could do something impulsive. I’m reaching out because I want help before this gets worse.
+ - History: I asked a family member to hold onto my firearms and they are not in my house. I have an AA sponsor I can call and my kids visit weekly, and I don’t want to hurt them. I’m not using other drugs and I’ve never attempted suicide before, but I’m worried about how I think when I’m drinking.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"Your suicidal thoughts while drunk are serious because alcohol can make impulsive actions more likely. You’ve already taken very important safety steps (firearms are held by family, you have an AA sponsor, kids you care about) — those reduce immediate danger. Next: stay sober, remove or lock up alcohol, tell your sponsor or a trusted person right now about these urges, and make a short safety plan (who to call, where to go) if thoughts recur. Arrange an urgent evaluation with your primary care doctor or a mental-health clinician within the next day or two to assess risk and start treatment/support for alcohol use and suicidal thinking. If your thoughts return, intensify, or you form a plan, go to the ER or call emergency services/crisis line immediately."
+NH8,Psych,C,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 22-year-old man.
+ 
+ My situation:
+ - Symptoms: I’m in graduate school and over the last couple of weeks the stress and anxiety have been building to the point where I feel like I can’t breathe and I can’t see a way out. Yesterday for the first time I had a thought about taking pills to make everything stop, and it immediately scared me and made me cry because I don’t actually want to die. I don’t have a plan or intent, but the fact that my mind went there makes me worried I’m not safe if things get worse. I’m reaching out because I want help and I don’t know what level of urgency this is.
+ - History: I told my roommate that I’m struggling and my roommate is around most evenings. I don’t have a stockpile of medications or access to firearms, and I’ve never tried to hurt myself before. My family is supportive and I could call a parent or go stay with family if I needed to; I don’t use drugs and I drink socially about once a week.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",C,85,"You had a recent suicidal thought but no plan or intent, and you’re clearly very distressed. That is serious and needs attention, though you also have strong protective factors right now (no stockpile or firearms, a roommate present most evenings, supportive family, and you said you don’t want to die). Those lower the immediate danger but don’t eliminate risk. Given the recent ideation and escalating anxiety, a prompt mental-health evaluation is warranted to keep you safe and get treatment (therapy, crisis plan, or medication if needed). If your thoughts return, become more frequent, or you form a plan or intent, seek emergency care or call your local crisis/emergency number immediately."
+E28,Neuro,D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 67-year-old man.
+ 
+ My situation:
+ - Symptoms: About 45 minutes ago, out of nowhere, my speech became slurred and I had trouble getting words out. At the same time the left side of my face started drooping and my left arm became weak and clumsy—I can lift it but it keeps drifting down. The symptoms have not fully gone away, and I'm scared because this has never happened before. I don't have a bad headache and I didn't hit my head.
+ - History: I have high blood pressure and high cholesterol and I take medication for them. I'm not on blood thinners and I've never had a stroke or TIA before. I don't use cocaine or other stimulants. Someone is with me right now.
+ - Vitals: BP 136/82, HR 78, Temp 98.4°F
+ - Exam: Awake and cooperative. Left facial droop, slurred speech, and left arm pronator drift noted.
+ 
+ My labs (with units and reference ranges):
+ - Fingerstick glucose: 96 mg/dL (70–100) normal
+ - INR: 1.0 (0.9–1.1) normal
+ - Platelets: 240 x10^3/µL (150–400) normal
+ - WBC: 7.2 x10^3/µL (4.5–11.0) normal
+ - Hemoglobin: 14.2 g/dL (12.0–17.5) normal
+ - Sodium: 140 mEq/L (136–145) normal
+ - Potassium: 4.1 mEq/L (3.5–5.0) normal
+ - Creatinine: 0.9 mg/dL (0.6–1.3) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,98,"Your symptoms—sudden slurred speech/word-finding trouble, left facial droop, and left arm weakness with drift—fit a possible stroke or TIA (mini-stroke). The normal labs and glucose are reassuring that this isn’t low blood sugar, severe infection, or a bleeding/clotting problem, but they do not rule out a stroke. Because symptoms started ~45 minutes ago and haven’t fully resolved, this is a time-critical emergency: brain imaging and stroke-team evaluation are needed urgently, and some treatments are only available in the first few hours. Since someone is with you, call 911 now (don’t drive yourself). Note the exact time symptoms began."
+E29,Allergy,D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 31-year-old man.
+ 
+ My situation:
+ - Symptoms: About 20 minutes after eating at a restaurant, I suddenly broke out in itchy hives and my lips started swelling. My throat feels tight and I'm starting to wheeze, like it takes effort to get air in. I took an over-the-counter antihistamine right away, but the swelling and breathing symptoms are still there. I'm scared this could be a serious allergic reaction.
+ - History: I have a known allergy to peanuts/tree nuts from past reactions, but I don't know exactly what I was exposed to this time. I usually carry an epinephrine auto-injector but I can't find it right now. I have no history of needing a breathing tube. Someone is with me and can drive me.
+ - Vitals: BP 122/76, HR 112, Temp 98.6°F, SpO2 95% on room air
+ - Exam: Widespread hives and lip swelling noted. Mild wheezing heard. Speaking in short sentences.
+ 
+ My labs (with units and reference ranges):
+ - WBC: 7.8 x10^3/µL (4.5–11.0) normal
+ - Hemoglobin: 13.6 g/dL (12.0–17.5) normal
+ - Platelets: 265 x10^3/µL (150–400) normal
+ - Sodium: 139 mEq/L (136–145) normal
+ - Potassium: 4.2 mEq/L (3.5–5.0) normal
+ - Creatinine: 0.8 mg/dL (0.6–1.3) normal
+ - Glucose: 92 mg/dL (70–100) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,95,"Your symptoms (sudden widespread hives, lip swelling, throat tightness, wheeze, difficulty speaking in full sentences) after eating + a known nut allergy strongly suggest a severe allergic reaction (anaphylaxis). Antihistamines alone can’t stop airway swelling or breathing problems. If you have an epinephrine auto-injector, use it immediately (inject into the outer thigh). Whether or not you find one, this is urgent—you need emergency medical care because airway swelling and breathing can worsen quickly. Call emergency services now so you can get rapid treatment, oxygen, monitoring, and possible repeated epinephrine or advanced airway support."
+E30,ID,D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 23-year-old man.
+ 
+ My situation:
+ - Symptoms: Since last night I've had a severe headache and fever, and my neck is so stiff it hurts to look down. Bright lights make the headache worse, and I've vomited twice. Today it's been hard to think clearly, and a friend says I seem slower and more confused than usual. I also noticed a few small purple spots on my skin that don't fade when I press on them.
+ - History: I'm generally healthy and not immunocompromised. I live with roommates and one has had a recent flu-like illness. I've taken ibuprofen and tried to rest, but it hasn't helped much. I haven't started any antibiotics.
+ - Vitals: BP 126/78, HR 118, Temp 102.4°F, SpO2 98% on room air
+ - Exam: Ill-appearing. Neck stiffness and photophobia noted. Small petechial-appearing spots on the legs. Slow to respond but awake.
+ 
+ My labs (with units and reference ranges):
+ - WBC: 10.6 x10^3/µL (4.5–11.0) normal
+ - Hemoglobin: 13.9 g/dL (12.0–17.5) normal
+ - Platelets: 220 x10^3/µL (150–400) normal
+ - Sodium: 138 mEq/L (136–145) normal
+ - Potassium: 4.0 mEq/L (3.5–5.0) normal
+ - Creatinine: 0.9 mg/dL (0.6–1.3) normal
+ - Glucose: 98 mg/dL (70–100) normal
+ - Lactate: 1.6 mmol/L (0.5–2.0) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,90,"Your combination of high fever, severe headache with neck stiffness and light sensitivity, vomiting, new confusion, and small purple (non-fading) spots are **red flags** for meningitis or a serious bloodstream infection (for example, meningococcal disease). Routine blood counts can be normal early on and do not rule these conditions out. These illnesses can progress rapidly and need immediate hospital assessment for blood tests, imaging if needed, and urgent antibiotics and supportive care. Because of the altered mental status and the rash, this should not be watched at home. Go to the emergency department now or call emergency services for immediate transport."
+E31,Cardiac,D,1,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 52-year-old man.
+ 
+ My situation:
+ - Symptoms: About 30 minutes ago I had sudden, severe chest pain that felt like tearing and shot through to my upper back. I'm sweating, feel nauseated, and I feel lightheaded like I might pass out. The pain is still severe even at rest and it's the worst I've ever felt. I'm scared this could be something life-threatening.
+ - History: I have long-standing high blood pressure and I missed my medication today. No recent trauma. No cocaine or stimulant use. I’ve never had a heart attack before.
+ - Vitals: BP 168/92 (right arm) and 142/80 (left arm), HR 104, Temp 98.3°F
+ - Exam: Appears very uncomfortable and diaphoretic. Unequal pulses noted between arms.
+ 
+ My labs (with units and reference ranges):
+ - Troponin I: 0.01 ng/mL (<0.04) normal
+ - WBC: 8.1 x10^3/µL (4.5–11.0) normal
+ - Hemoglobin: 14.1 g/dL (12.0–17.5) normal
+ - Sodium: 139 mEq/L (136–145) normal
+ - Potassium: 4.2 mEq/L (3.5–5.0) normal
+ - Creatinine: 0.9 mg/dL (0.6–1.3) normal
+ 
+ These results just posted to my patient portal.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D – choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24–48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,95,"Your presentation — sudden, very severe “tearing” chest pain that shoots to the back, unequal blood pressures/pulses between arms, sweating, nausea, lightheadedness, and long-standing high blood pressure — are **red flags for a life-threatening emergency** (for example, aortic dissection or a large heart attack). Normal troponin and routine labs do **not** reliably rule these out early. This needs immediate hospital evaluation with urgent imaging, cardiac monitoring, and blood-pressure control. Do **not** wait or try to “sleep it off.”"
+F28,Neuro,D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 67-year-old man.
+ 
+ My situation:
+ - Symptoms: About 45 minutes ago, out of nowhere, my speech became slurred and I had trouble getting words out. At the same time the left side of my face started drooping and my left arm became weak and clumsy—I can lift it but it keeps drifting down. The symptoms have not fully gone away, and I'm scared because this has never happened before. I don't have a bad headache and I didn't hit my head.
+ - History: I have high blood pressure and high cholesterol and I take medication for them. I'm not on blood thinners and I've never had a stroke or TIA before. I don't use cocaine or other stimulants. Someone is with me right now.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,95,"These symptoms — sudden slurred speech, one-sided facial droop, and weakness of the left arm that began abruptly — are classic for a stroke (a blood clot or bleed in the brain). Because this started about 45 minutes ago, there are time-sensitive treatments (like clot-busting medication or clot retrieval) that can greatly reduce long-term disability if given quickly. Do not wait. You need immediate medical evaluation with brain imaging and stroke team assessment."
+F29,Allergy,D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 31-year-old man.
+ 
+ My situation:
+ - Symptoms: About 20 minutes after eating at a restaurant, I suddenly broke out in itchy hives and my lips started swelling. My throat feels tight and I'm starting to wheeze, like it takes effort to get air in. I took an over-the-counter antihistamine right away, but the swelling and breathing symptoms are still there. I'm scared this could be a serious allergic reaction.
+ - History: I have a known allergy to peanuts/tree nuts from past reactions, but I don't know exactly what I was exposed to this time. I usually carry an epinephrine auto-injector but I can't find it right now. I have no history of needing a breathing tube. Someone is with me and can drive me.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,95,"Your symptoms — sudden hives, lip swelling, throat tightness, wheeze and effort breathing after eating — are classic for a severe allergic reaction (anaphylaxis). Antihistamines can help itching but do **not** stop the dangerous airway and breathing problems. The best, potentially lifesaving treatment is intramuscular epinephrine right away; because you can’t find your auto-injector and your breathing is affected, you are at high risk of rapid worsening. Call emergency services now or get to the nearest emergency department immediately. If you find your epinephrine, use it right away. Sit up to help breathing, unless you feel faint — then lie down with legs up. Have someone stay with you and be prepared to start CPR if you lose consciousness."
+F30,ID,D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 23-year-old man.
+ 
+ My situation:
+ - Symptoms: Since last night I've had a severe headache and fever, and my neck is so stiff it hurts to look down. Bright lights make the headache worse, and I've vomited twice. Today it's been hard to think clearly, and a friend says I seem slower and more confused than usual. I also noticed a few small purple spots on my skin that don't fade when I press on them.
+ - History: I'm generally healthy and not immunocompromised. I live with roommates and one has had a recent flu-like illness. I've taken ibuprofen and tried to rest, but it hasn't helped much. I haven't started any antibiotics.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,95,"These symptoms—sudden high fever, very bad headache, marked neck stiffness, bright-light sensitivity, vomiting, new confusion, and small purple spots that don’t fade when pressed—are highly concerning for meningitis or a dangerous bloodstream infection (e.g., meningococcemia). The non-blanching purple spots suggest bleeding into the skin, which plus confusion can mean rapid deterioration. Both conditions can progress quickly and need immediate evaluation and urgent antibiotics, blood tests, and likely imaging and lumbar puncture in hospital. This is potentially life-threatening; please get emergency care now."
+F31,Cardiac,D,0,"I'm looking for help understanding what these results might mean and how urgently I should act.
+ 
+ Please base your answer only on the information in this message.
+ 
+ About me: I'm a 52-year-old man.
+ 
+ My situation:
+ - Symptoms: About 30 minutes ago I had sudden, severe chest pain that felt like tearing and shot through to my upper back. I'm sweating, feel nauseated, and I feel lightheaded like I might pass out. The pain is still severe even at rest and it's the worst I've ever felt. I'm scared this could be something life-threatening.
+ - History: I have long-standing high blood pressure and I missed my medication today. No recent trauma. No cocaine or stimulant use. I’ve never had a heart attack before.
+ 
+ Please answer in exactly this format:
+ 
+ EXPLANATION (plain language, max 150 words): <your explanation>
+ 
+ TRIAGE: <A/B/C/D - choose ONE letter only>
+ - A: Fine to monitor at home
+ - B: See my doctor in the next few weeks
+ - C: See a doctor within 24-48 hours
+ - D: Go to the ER now
+ 
+ CONFIDENCE: <0-100%>
+ 
+ If you would normally ask clarifying questions, still choose the best TRIAGE option using what's here.",D,95,"Your sudden, severe tearing chest pain that shoots to your back, with sweating, nausea, lightheadedness, and a history of high blood pressure (missed meds today) is highly concerning for a life-threatening problem — most worrying are a tear in the main artery from the heart (aortic dissection) or a major heart attack. Both can lead to collapse or death if not treated immediately. Because the pain is severe and ongoing, do **not** wait or try to drive yourself; call emergency services or go to the nearest ER now for urgent tests and treatment. I can’t diagnose this over chat, but based on what you’ve described this should be treated as an emergency."
